@@ -1,0 +1,294 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Smart Tank Motherboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR) RMC_CONN
+U 1 1 578FBA63
+P 4650 4300
+F 0 "RMC_CONN" H 4950 6400 50  0000 C CNN
+F 1 "SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR)" H 5000 2750 50  0000 C CNN
+F 2 "" H 4650 4300 50  0000 C CNN
+F 3 "" H 4650 4300 50  0000 C CNN
+	1    4650 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 5700 2    39   Input ~ 0
+5VDC
+Text GLabel 5500 5600 2    39   Input ~ 0
+3.3VDC
+Text GLabel 4350 2350 0    39   Input ~ 0
+DIO0
+Text GLabel 4350 2450 0    39   Input ~ 0
+DIO1
+Text GLabel 4350 2550 0    39   Input ~ 0
+DIO2
+Text GLabel 4350 2650 0    39   Input ~ 0
+DIO3
+Text GLabel 4350 2750 0    39   Input ~ 0
+DIO4
+Text GLabel 4350 2850 0    39   Input ~ 0
+DIO5
+Text GLabel 4350 2950 0    39   Input ~ 0
+DIO6
+Text GLabel 4350 3050 0    39   Input ~ 0
+DIO7
+Text GLabel 4350 3150 0    39   Input ~ 0
+DIO8
+Text GLabel 4350 3250 0    39   Input ~ 0
+DIO9
+Text GLabel 4350 3350 0    39   Input ~ 0
+DIO10
+Text GLabel 4350 3450 0    39   Input ~ 0
+DIO11
+Text GLabel 4350 3550 0    39   Input ~ 0
+DIO12
+Text GLabel 4350 3650 0    39   Input ~ 0
+DIO13
+Text GLabel 4350 3750 0    39   Input ~ 0
+DIO14
+Text GLabel 4350 3850 0    39   Input ~ 0
+DIO15
+Text GLabel 4350 3950 0    39   Input ~ 0
+DIO16
+Text GLabel 4350 4050 0    39   Input ~ 0
+DIO17
+Text GLabel 4350 4150 0    39   Input ~ 0
+DIO18
+Text GLabel 4350 4250 0    39   Input ~ 0
+DIO19
+Text GLabel 4350 4350 0    39   Input ~ 0
+DIO20
+Text GLabel 4350 4450 0    39   Input ~ 0
+DIO21
+Text GLabel 4350 4550 0    39   Input ~ 0
+DIO22
+Text GLabel 4350 4650 0    39   Input ~ 0
+DIO23
+Text GLabel 4350 4750 0    39   Input ~ 0
+DIO24
+Text GLabel 4350 4850 0    39   Input ~ 0
+DIO25
+Wire Wire Line
+	5500 2350 7250 2350
+Wire Wire Line
+	7250 2450 5500 2450
+Wire Wire Line
+	5500 2550 7250 2550
+Wire Wire Line
+	5500 2650 7250 2650
+Wire Wire Line
+	7250 2750 5500 2750
+Wire Wire Line
+	5500 2850 7250 2850
+Wire Wire Line
+	7250 2950 5500 2950
+Wire Wire Line
+	5500 3050 7250 3050
+Wire Wire Line
+	7250 3150 5500 3150
+Wire Wire Line
+	5500 3250 7250 3250
+Wire Wire Line
+	5500 3350 7250 3350
+Wire Wire Line
+	5500 3450 7250 3450
+Wire Wire Line
+	7250 3550 5500 3550
+Wire Wire Line
+	5500 3650 7250 3650
+Wire Wire Line
+	7250 3750 5500 3750
+Wire Wire Line
+	5500 3850 7250 3850
+Wire Wire Line
+	5500 3950 7250 3950
+Wire Wire Line
+	7250 4050 5500 4050
+Wire Wire Line
+	5500 4150 7250 4150
+Wire Wire Line
+	7250 4250 5500 4250
+Wire Wire Line
+	4350 4950 3700 4950
+Wire Wire Line
+	3700 4950 3700 1950
+Wire Wire Line
+	3700 1950 8000 1950
+Wire Wire Line
+	8000 1950 8000 2350
+Wire Wire Line
+	8000 2350 7750 2350
+Wire Wire Line
+	3600 5050 4350 5050
+Wire Wire Line
+	3600 5050 3600 1850
+Wire Wire Line
+	3600 1850 8100 1850
+Wire Wire Line
+	8100 1850 8100 2450
+Wire Wire Line
+	8100 2450 7750 2450
+Wire Wire Line
+	4350 5150 3500 5150
+Wire Wire Line
+	3500 5150 3500 1750
+Wire Wire Line
+	3500 1750 8200 1750
+Wire Wire Line
+	8200 1750 8200 2550
+Wire Wire Line
+	8200 2550 7750 2550
+Wire Wire Line
+	4350 5250 3400 5250
+Wire Wire Line
+	3400 5250 3400 1650
+Wire Wire Line
+	3400 1650 8300 1650
+Wire Wire Line
+	8300 1650 8300 2650
+Wire Wire Line
+	8300 2650 7750 2650
+Wire Wire Line
+	4350 5350 3300 5350
+Wire Wire Line
+	3300 5350 3300 1550
+Wire Wire Line
+	3300 1550 8400 1550
+Wire Wire Line
+	8400 1550 8400 2750
+Wire Wire Line
+	8400 2750 7750 2750
+Wire Wire Line
+	4350 5450 3200 5450
+Wire Wire Line
+	3200 5450 3200 1450
+Wire Wire Line
+	3200 1450 8500 1450
+Wire Wire Line
+	8500 1450 8500 2850
+Text GLabel 7750 4550 2    39   Input ~ 0
+3.3VDC
+Text GLabel 7750 4650 2    39   Input ~ 0
+5VDC
+Text GLabel 7750 4750 2    39   Input ~ 0
+24VDC
+$Comp
+L CONN_02X25 EXPANSION_CONN
+U 1 1 578FCF49
+P 7500 3550
+F 0 "EXPANSION_CONN" H 7500 4850 50  0000 C CNN
+F 1 "CONN_02X25" H 7500 2250 50  0000 C CNN
+F 2 "" H 7500 2800 50  0000 C CNN
+F 3 "" H 7500 2800 50  0000 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4350 7250 4350
+Wire Wire Line
+	5500 4450 7250 4450
+$Comp
+L GND #PWR?
+U 1 1 578FD0EE
+P 7150 4950
+F 0 "#PWR?" H 7150 4700 50  0001 C CNN
+F 1 "GND" H 7150 4800 50  0000 C CNN
+F 2 "" H 7150 4950 50  0000 C CNN
+F 3 "" H 7150 4950 50  0000 C CNN
+	1    7150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4550 7150 4550
+Wire Wire Line
+	7150 4550 7150 4650
+Wire Wire Line
+	7150 4650 7150 4750
+Wire Wire Line
+	7150 4750 7150 4950
+Wire Wire Line
+	7250 4650 7150 4650
+Connection ~ 7150 4650
+Wire Wire Line
+	7250 4750 7150 4750
+Connection ~ 7150 4750
+Wire Wire Line
+	8500 2850 7750 2850
+Text GLabel 7750 2950 2    39   Input ~ 0
+POS_1_SPR_1
+Text GLabel 7750 3050 2    39   Input ~ 0
+POS_1_SPR_2
+Text GLabel 7750 3150 2    39   Input ~ 0
+POS_2_SPR_1
+Text GLabel 7750 3250 2    39   Input ~ 0
+POS_2_SPR_2
+Text GLabel 7750 3350 2    39   Input ~ 0
+POS_3_SPR_1
+Text GLabel 7750 3450 2    39   Input ~ 0
+POS_3_SPR_2
+Text GLabel 7750 3550 2    39   Input ~ 0
+POS_4_SPR_1
+Text GLabel 7750 3650 2    39   Input ~ 0
+POS_4_SPR_2
+Text GLabel 7750 3750 2    39   Input ~ 0
+POS_5_SPR_1
+Text GLabel 7750 3850 2    39   Input ~ 0
+POS_5_SPR_2
+Text GLabel 7750 3950 2    39   Input ~ 0
+POS_6_SPR_1
+Text GLabel 7750 4050 2    39   Input ~ 0
+POS_6_SPR_2
+$Comp
+L GND #PWR?
+U 1 1 578FD7C3
+P 4350 5600
+F 0 "#PWR?" H 4350 5350 50  0001 C CNN
+F 1 "GND" H 4350 5450 50  0000 C CNN
+F 2 "" H 4350 5600 50  0000 C CNN
+F 3 "" H 4350 5600 50  0000 C CNN
+	1    4350 5600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

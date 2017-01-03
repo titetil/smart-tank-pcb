@@ -1,0 +1,432 @@
+EESchema Schematic File Version 2
+LIBS:Smart Tank Motherboard-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Smart Tank Motherboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TEMP_COND_(AD8497) TEMP_1
+U 1 1 57968DB6
+P 6000 2600
+F 0 "TEMP_1" H 6000 2850 50  0000 C CNN
+F 1 "TEMP_COND_(AD8497)" H 6000 2350 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6000 1400 50  0001 C CNN
+F 3 "" H 6000 1400 50  0000 C CNN
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 TC_INPUTS1
+U 1 1 57968E7F
+P 2850 1200
+F 0 "TC_INPUTS1" H 2850 1500 50  0000 C CNN
+F 1 "CONN_01X04" H 2850 950 50  0000 C CNN
+F 2 "Smart_Tank:PHX_TB_HDR_4_POS_(1757268)" H 2850 1200 50  0001 C CNN
+F 3 "" H 2850 1200 50  0000 C CNN
+	1    2850 1200
+	-1   0    0    -1  
+$EndComp
+Text Notes 2750 1050 2    49   ~ 0
++TEMP_1
+Text Notes 2750 1150 2    49   ~ 0
+-TEMP_1
+Text Notes 2750 1250 2    49   ~ 0
++TEMP_2
+Text Notes 2750 1350 2    49   ~ 0
+-TEMP_2
+$Comp
+L C C16
+U 1 1 5796911E
+P 6000 2050
+F 0 "C16" V 6100 2100 50  0000 L CNN
+F 1 "10uF" V 6100 1800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6038 1900 50  0001 C CNN
+F 3 "" H 6000 2050 50  0000 C CNN
+	1    6000 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 2050 5850 2050
+Wire Wire Line
+	5450 1850 5450 2450
+Wire Wire Line
+	5450 2450 5600 2450
+Wire Wire Line
+	6150 2050 6800 2050
+Wire Wire Line
+	6550 1850 6550 2450
+Wire Wire Line
+	6550 2450 6350 2450
+$Comp
+L R R15
+U 1 1 57969213
+P 5450 1700
+F 0 "R15" V 5530 1700 50  0000 C CNN
+F 1 "15k" V 5450 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 1700 50  0001 C CNN
+F 3 "" H 5450 1700 50  0000 C CNN
+	1    5450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 579692D0
+P 6550 1700
+F 0 "R16" V 6630 1700 50  0000 C CNN
+F 1 "15k" V 6550 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6480 1700 50  0001 C CNN
+F 3 "" H 6550 1700 50  0000 C CNN
+	1    6550 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 2050
+Connection ~ 6550 2050
+$Comp
+L R R14
+U 1 1 57969336
+P 5000 1450
+F 0 "R14" V 5080 1450 50  0000 C CNN
+F 1 "1M" V 5000 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 4930 1450 50  0001 C CNN
+F 3 "" H 5000 1450 50  0000 C CNN
+	1    5000 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 1450 5450 1450
+Wire Wire Line
+	5450 1150 5450 1550
+$Comp
+L C C14
+U 1 1 579693DF
+P 5000 2050
+F 0 "C14" V 5100 2100 50  0000 L CNN
+F 1 "1uF" V 5100 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5038 1900 50  0001 C CNN
+F 3 "" H 5000 2050 50  0000 C CNN
+	1    5000 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C18
+U 1 1 579694AA
+P 6950 2050
+F 0 "C18" V 7050 2100 50  0000 L CNN
+F 1 "1uF" V 7050 1850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6988 1900 50  0001 C CNN
+F 3 "" H 6950 2050 50  0000 C CNN
+	1    6950 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2050 4600 2050
+Wire Wire Line
+	4600 1450 4600 3400
+Wire Wire Line
+	4600 1450 4850 1450
+Wire Wire Line
+	3050 1050 6550 1050
+Wire Wire Line
+	6550 1050 6550 1550
+Wire Wire Line
+	3050 1150 5450 1150
+Connection ~ 5450 1450
+Text GLabel 7450 2550 2    39   Input ~ 0
+5VDC
+Wire Wire Line
+	6350 2550 7450 2550
+Text GLabel 5600 2550 0    39   Input ~ 0
+3.3VDC
+$Comp
+L C C17
+U 1 1 5797473E
+P 6850 2900
+F 0 "C17" H 6875 3000 50  0000 L CNN
+F 1 "0.1uF" H 6875 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6888 2750 50  0001 C CNN
+F 3 "" H 6850 2900 50  0000 C CNN
+	1    6850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 57974774
+P 7250 2900
+F 0 "C19" H 7275 3000 50  0000 L CNN
+F 1 "10uF" H 7275 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7288 2750 50  0001 C CNN
+F 3 "" H 7250 2900 50  0000 C CNN
+	1    7250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2750 6850 2550
+Connection ~ 6850 2550
+Wire Wire Line
+	7250 2750 7250 2550
+Connection ~ 7250 2550
+$Comp
+L GND #PWR020
+U 1 1 5797493B
+P 4600 3400
+F 0 "#PWR020" H 4600 3150 50  0001 C CNN
+F 1 "GND" H 4600 3250 50  0000 C CNN
+F 2 "" H 4600 3400 50  0000 C CNN
+F 3 "" H 4600 3400 50  0000 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3300 7850 3300
+Connection ~ 4600 3300
+Wire Wire Line
+	6850 3300 6850 3050
+Wire Wire Line
+	7250 3300 7250 3050
+Connection ~ 6850 3300
+Wire Wire Line
+	4600 2650 5600 2650
+Wire Wire Line
+	7100 2050 7850 2050
+Wire Wire Line
+	7850 2050 7850 3300
+Connection ~ 7250 3300
+Connection ~ 4600 2650
+Connection ~ 4600 2050
+Text GLabel 6450 2750 2    39   Input ~ 0
+AI28
+Wire Wire Line
+	6350 2750 6450 2750
+Wire Wire Line
+	6350 2650 6400 2650
+Wire Wire Line
+	6400 2650 6400 2750
+Connection ~ 6400 2750
+$Comp
+L TEMP_COND_(AD8497) TEMP_2
+U 1 1 57975477
+P 6000 5400
+F 0 "TEMP_2" H 6000 5650 50  0000 C CNN
+F 1 "TEMP_COND_(AD8497)" H 6000 5150 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 6000 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0000 C CNN
+	1    6000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C23
+U 1 1 5797547E
+P 6000 4850
+F 0 "C23" V 6100 4900 50  0000 L CNN
+F 1 "10uF" V 6100 4600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6038 4700 50  0001 C CNN
+F 3 "" H 6000 4850 50  0000 C CNN
+	1    6000 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 4850 5850 4850
+Wire Wire Line
+	5450 4650 5450 5250
+Wire Wire Line
+	5450 5250 5600 5250
+Wire Wire Line
+	6150 4850 6800 4850
+Wire Wire Line
+	6550 4650 6550 5250
+Wire Wire Line
+	6550 5250 6350 5250
+$Comp
+L R R45
+U 1 1 5797548B
+P 5450 4500
+F 0 "R45" V 5530 4500 50  0000 C CNN
+F 1 "15k" V 5450 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 4500 50  0001 C CNN
+F 3 "" H 5450 4500 50  0000 C CNN
+	1    5450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R46
+U 1 1 57975492
+P 6550 4500
+F 0 "R46" V 6630 4500 50  0000 C CNN
+F 1 "15k" V 6550 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6480 4500 50  0001 C CNN
+F 3 "" H 6550 4500 50  0000 C CNN
+	1    6550 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 4850
+Connection ~ 6550 4850
+$Comp
+L R R44
+U 1 1 5797549B
+P 5000 4250
+F 0 "R44" V 5080 4250 50  0000 C CNN
+F 1 "1M" V 5000 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 4930 4250 50  0001 C CNN
+F 3 "" H 5000 4250 50  0000 C CNN
+	1    5000 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 4250 5450 4250
+Wire Wire Line
+	5450 3950 5450 4350
+$Comp
+L C C22
+U 1 1 579754A4
+P 5000 4850
+F 0 "C22" V 5100 4900 50  0000 L CNN
+F 1 "1uF" V 5100 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5038 4700 50  0001 C CNN
+F 3 "" H 5000 4850 50  0000 C CNN
+	1    5000 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L C C25
+U 1 1 579754AB
+P 6950 4850
+F 0 "C25" V 7050 4900 50  0000 L CNN
+F 1 "1uF" V 7050 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6988 4700 50  0001 C CNN
+F 3 "" H 6950 4850 50  0000 C CNN
+	1    6950 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4850 4600 4850
+Wire Wire Line
+	4600 4250 4600 6200
+Wire Wire Line
+	4600 4250 4850 4250
+Wire Wire Line
+	6550 3850 6550 4350
+Connection ~ 5450 4250
+Text GLabel 7450 5350 2    39   Input ~ 0
+5VDC
+Wire Wire Line
+	6350 5350 7450 5350
+Text GLabel 5600 5350 0    39   Input ~ 0
+3.3VDC
+$Comp
+L C C24
+U 1 1 579754BC
+P 6850 5700
+F 0 "C24" H 6875 5800 50  0000 L CNN
+F 1 "0.1uF" H 6875 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6888 5550 50  0001 C CNN
+F 3 "" H 6850 5700 50  0000 C CNN
+	1    6850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 579754C3
+P 7250 5700
+F 0 "C26" H 7275 5800 50  0000 L CNN
+F 1 "10uF" H 7275 5600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 7288 5550 50  0001 C CNN
+F 3 "" H 7250 5700 50  0000 C CNN
+	1    7250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5550 6850 5350
+Connection ~ 6850 5350
+Wire Wire Line
+	7250 5550 7250 5350
+Connection ~ 7250 5350
+$Comp
+L GND #PWR021
+U 1 1 579754CE
+P 4600 6200
+F 0 "#PWR021" H 4600 5950 50  0001 C CNN
+F 1 "GND" H 4600 6050 50  0000 C CNN
+F 2 "" H 4600 6200 50  0000 C CNN
+F 3 "" H 4600 6200 50  0000 C CNN
+	1    4600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6100 7850 6100
+Connection ~ 4600 6100
+Wire Wire Line
+	6850 6100 6850 5850
+Wire Wire Line
+	7250 6100 7250 5850
+Connection ~ 6850 6100
+Wire Wire Line
+	4600 5450 5600 5450
+Wire Wire Line
+	7100 4850 7850 4850
+Wire Wire Line
+	7850 4850 7850 6100
+Connection ~ 7250 6100
+Connection ~ 4600 5450
+Connection ~ 4600 4850
+Text GLabel 6450 5550 2    39   Input ~ 0
+AI29
+Wire Wire Line
+	6350 5550 6450 5550
+Wire Wire Line
+	6350 5450 6400 5450
+Wire Wire Line
+	6400 5450 6400 5550
+Connection ~ 6400 5550
+Wire Wire Line
+	3050 1250 3950 1250
+Wire Wire Line
+	3950 1250 3950 3850
+Wire Wire Line
+	3050 1350 3850 1350
+Wire Wire Line
+	3850 1350 3850 3950
+Wire Wire Line
+	3950 3850 6550 3850
+Wire Wire Line
+	3850 3950 5450 3950
+$EndSCHEMATC
