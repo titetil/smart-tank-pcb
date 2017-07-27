@@ -1,4 +1,5 @@
-(module "SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR)" locked (layer F.Cu) (tedit 5798FFAF)
+(module "SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR)" (layer F.Cu) (tedit 57D2D0D8)
+  (clearance 0.15)
   (fp_text reference RMC_CONN1 (at 0 6.35) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
@@ -251,12 +252,12 @@
   (pad 239 smd circle (at -24.765 1.905) (size 0.64 0.64) (layers F.Cu F.Paste F.Mask))
   (pad 240 smd circle (at -24.765 3.175) (size 0.64 0.64) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -27.19 3.05) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../Users/gtetil/Documents/Projects/Smart Tank/Motherboard/Smart_Tank_3D/SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR).wrl"
+  (model "../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR).wrl"
     (at (xyz 0 0 0.1))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 270 0 0))
   )
-  (model "../../../../../../Users/gtetil/Documents/Projects/Smart Tank/Motherboard/Smart_Tank_3D/cu_sbrio-9626.wrl"
+  (model ../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/cu_sbrio-9626.wrl
     (at (xyz 1.45 0.065 0.357))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 90 270))

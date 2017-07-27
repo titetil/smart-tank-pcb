@@ -356,22 +356,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 3300 3800 3300
 Wire Wire Line
-	3800 3400 2600 3400
-Wire Wire Line
-	2600 3500 3800 3500
-Wire Wire Line
-	2600 3600 3800 3600
-Wire Wire Line
-	3800 3700 2600 3700
-Wire Wire Line
-	2600 3800 3800 3800
-Wire Wire Line
-	3800 3900 2600 3900
-Wire Wire Line
-	2600 4000 3800 4000
-Wire Wire Line
-	2600 4100 3800 4100
-Wire Wire Line
 	3800 4200 3700 4200
 Wire Wire Line
 	3700 4200 3700 4750
@@ -565,7 +549,7 @@ U 1 1 57966E66
 P 9650 2900
 F 0 "AO_CONN1" H 9650 3250 50  0000 C CNN
 F 1 "CONN_01X06" H 9650 2550 50  0000 C CNN
-F 2 "Smart_Tank:PHX_TB_HDR_6_POS_(1757284)" H 9650 2900 50  0001 C CNN
+F 2 "Smart_Tank:PHX_TB_HDR_6_POS_STR_(1755778)" H 9650 2900 50  0001 C CNN
 F 3 "" H 9650 2900 50  0000 C CNN
 	1    9650 2900
 	1    0    0    -1  
@@ -715,4 +699,111 @@ Connection ~ 4450 4300
 Wire Wire Line
 	4300 4100 4450 4100
 Connection ~ 4450 4200
+$Comp
+L CONN_01X10 SP1-6_CONN1
+U 1 1 5979F58B
+P 4450 6050
+F 0 "SP1-6_CONN1" H 4450 5500 50  0000 C CNN
+F 1 "CONN_01X10" H 4450 6600 50  0000 C CNN
+F 2 "Smart_Tank:PHX_TB_HDR_10_POS_STR_(1755817)" H 4450 6050 50  0001 C CNN
+F 3 "" H 4450 6050 50  0001 C CNN
+	1    4450 6050
+	1    0    0    1   
+$EndComp
+Text Notes 4550 6500 0    43   ~ 0
+PWR
+Text Notes 4550 6400 0    43   ~ 0
+PWR
+Text Notes 4550 6300 0    43   ~ 0
+GND
+Text Notes 4550 6200 0    43   ~ 0
+GND
+Text Notes 4550 5600 0    43   ~ 0
+SPARE_1
+Text Notes 4550 5700 0    43   ~ 0
+SPARE_2
+Text Notes 4550 5800 0    43   ~ 0
+SPARE_3
+Text Notes 4550 5900 0    43   ~ 0
+SPARE_4
+Text Notes 4550 6000 0    43   ~ 0
+SPARE_5
+Text Notes 4550 6100 0    43   ~ 0
+SPARE_6
+Text GLabel 3800 3600 0    39   Input ~ 0
+SPARE_1
+Text GLabel 3800 3700 0    39   Input ~ 0
+SPARE_2
+Text GLabel 3800 3800 0    39   Input ~ 0
+SPARE_3
+Text GLabel 3800 3900 0    39   Input ~ 0
+SPARE_4
+Text GLabel 3800 4000 0    39   Input ~ 0
+SPARE_5
+Text GLabel 3800 4100 0    39   Input ~ 0
+SPARE_6
+Text GLabel 4250 5600 0    39   Input ~ 0
+SPARE_1
+Text GLabel 4250 5700 0    39   Input ~ 0
+SPARE_2
+Text GLabel 4250 5800 0    39   Input ~ 0
+SPARE_3
+Text GLabel 4250 5900 0    39   Input ~ 0
+SPARE_4
+Text GLabel 4250 6000 0    39   Input ~ 0
+SPARE_5
+Text GLabel 4250 6100 0    39   Input ~ 0
+SPARE_6
+$Comp
+L CONN_01X03 PWR_SEL_4
+U 1 1 597A1182
+P 3300 6400
+F 0 "PWR_SEL_4" H 3300 6600 50  0000 C CNN
+F 1 "CONN_01X03" H 3300 6200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3300 6400 50  0001 C CNN
+F 3 "" H 3300 6400 50  0001 C CNN
+	1    3300 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6400 4250 6400
+Wire Wire Line
+	4250 6500 4150 6500
+Wire Wire Line
+	4150 6500 4150 6400
+Connection ~ 4150 6400
+$Comp
+L GND #PWR010
+U 1 1 597A13CB
+P 4050 6600
+F 0 "#PWR010" H 4050 6350 50  0001 C CNN
+F 1 "GND" H 4050 6450 50  0000 C CNN
+F 2 "" H 4050 6600 50  0000 C CNN
+F 3 "" H 4050 6600 50  0000 C CNN
+	1    4050 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6600 4050 6200
+Wire Wire Line
+	4050 6200 4250 6200
+Wire Wire Line
+	4250 6300 4050 6300
+Connection ~ 4050 6300
+Text GLabel 3500 6300 2    39   Input ~ 0
+5VDC
+Text GLabel 3500 6500 2    39   Input ~ 0
+24VDC
+NoConn ~ 2600 3600
+NoConn ~ 2600 3700
+NoConn ~ 2600 3800
+NoConn ~ 2600 3900
+NoConn ~ 2600 4000
+NoConn ~ 2600 4100
+Text GLabel 3800 3400 0    39   Input ~ 0
+CAN_HI
+Text GLabel 3800 3500 0    39   Input ~ 0
+CAN_LO
+NoConn ~ 2600 3400
+NoConn ~ 2600 3500
 $EndSCHEMATC

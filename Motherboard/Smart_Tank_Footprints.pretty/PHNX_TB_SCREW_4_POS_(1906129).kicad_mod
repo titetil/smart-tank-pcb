@@ -1,5 +1,5 @@
-(module "PHNX_TB_SCREW_4_POS_(1906129)" locked (layer F.Cu) (tedit 57B45BA9)
-  (fp_text reference PUMP_PWR_CONN_1 (at 15.24 12.7) (layer F.SilkS)
+(module "PHNX_TB_SCREW_4_POS_(1906129)" locked (layer F.Cu) (tedit 57B5D2F5)
+  (fp_text reference PUMP_CONN_1 (at -6.35 5.08 90) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
   (fp_text value "SCREW_TB_(1906129)" (at 14.224 -6.35) (layer F.Fab) hide
@@ -13,7 +13,7 @@
   (pad 2 thru_hole circle (at 9.52 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 19.04 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 28.56 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../Users/gtetil/Documents/Projects/Smart Tank/Motherboard/Smart_Tank_3D/PHNX_TB_SCREW_4_POS_(1906129).wrl"
+  (model "../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/PHNX_TB_SCREW_4_POS_(1906129).wrl"
     (at (xyz -0.1874 -0.435 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))

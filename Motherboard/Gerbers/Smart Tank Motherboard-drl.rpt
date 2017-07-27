@@ -1,5 +1,5 @@
-Drill report for C:\Users\gtetil\Documents\Projects\Smart Tank\Motherboard\Smart Tank Motherboard.kicad_pcb
-Created on 9/22/2016 10:36:37 AM
+Drill report for C:\Users\gtetil\Documents\Projects\smart-tank-pcb\Motherboard\Smart Tank Motherboard.kicad_pcb
+Created on 7/27/2017 10:42:11 AM
 
 Copper Layer Stackup:
     =============================================================
@@ -15,32 +15,32 @@ Copper Layer Stackup:
     L10:  B.Cu_(High_Amps)          back
 
 
-Drill file 'C:Smart Tank Motherboard.drl' contains
+Drill file 'Smart Tank Motherboard.drl' contains
     plated through holes:
     =============================================================
-    T1  0.43mm  0.017"  (310 holes)
+    T1  0.43mm  0.017"  (324 holes)
     T2  0.80mm  0.031"  (50 holes)
-    T3  1.00mm  0.039"  (48 holes)
+    T3  1.00mm  0.039"  (51 holes)
     T4  1.02mm  0.040"  (69 holes)
     T5  1.14mm  0.045"  (42 holes)
-    T6  1.30mm  0.051"  (60 holes)
-    T7  1.40mm  0.055"  (54 holes)
+    T6  1.30mm  0.051"  (72 holes)
+    T7  1.40mm  0.055"  (64 holes)
     T8  1.60mm  0.063"  (72 holes)
     T9  1.80mm  0.071"  (2 holes)
     T10  1.98mm  0.078"  (35 holes)
     T11  2.49mm  0.098"  (36 holes)
     T12  2.70mm  0.106"  (30 holes)
     T13  3.12mm  0.123"  (12 holes)
+    T14  4.22mm  0.166"  (27 holes)
 
-    Total plated holes count 820
+    Total plated holes count 886
 
 
-Drill file 'C:Smart Tank Motherboard-NPTH.drl' contains
+Drill file 'Smart Tank Motherboard-NPTH.drl' contains
     unplated through holes:
     =============================================================
     T1  1.27mm  0.050"  (2 holes)
     T2  2.50mm  0.098"  (12 holes)
     T3  3.00mm  0.118"  (1 hole)
-    T4  4.22mm  0.166"  (27 holes)
 
-    Total unplated holes count 42
+    Total unplated holes count 15

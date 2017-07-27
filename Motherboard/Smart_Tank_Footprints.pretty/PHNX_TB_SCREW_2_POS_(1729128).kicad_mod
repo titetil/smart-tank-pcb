@@ -1,8 +1,8 @@
-(module "PHNX_TB_SCREW_2_POS_(1729128)" (layer F.Cu) (tedit 57A8BA42)
-  (fp_text reference REF** (at 2.54 6.35) (layer F.SilkS)
+(module "PHNX_TB_SCREW_2_POS_(1729128)" locked (layer F.Cu) (tedit 57B5D317)
+  (fp_text reference PUMP_V_CONN_5 (at -3.81 -1.9685 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value "PHNX_TB_SCREW_2_POS_(1729128)" (at 2.54 -6.35) (layer F.Fab) hide
+  (fp_text value CONN_01X02 (at 2.54 -6.35) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.54 -4.05) (end -2.54 4.05) (layer F.SilkS) (width 0.15))
@@ -11,7 +11,7 @@
   (fp_line (start 7.62 -4.05) (end -2.54 -4.05) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 5.08 0) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../Users/gtetil/Documents/Projects/Smart Tank/Motherboard/Smart_Tank_3D/PHNX_TB_SCREW_2_POS_(1729128).wrl"
+  (model "../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/PHNX_TB_SCREW_2_POS_(1729128).wrl"
     (at (xyz -0.125 -0.135 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 270 0 90))

@@ -1,8 +1,8 @@
-(module "PHX_TB_HDR_10_POS_STR_(1755817)" (layer F.Cu) (tedit 57B748B9)
-  (fp_text reference REF** (at -5.08 2.54 90) (layer F.SilkS)
+(module "PHX_TB_HDR_10_POS_STR_(1755817)" (layer F.Cu) (tedit 57B74980)
+  (fp_text reference GPIO_CONN1 (at -5.08 0 90) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
-  (fp_text value SIP-4 (at 22.86 -5.08) (layer F.Fab) hide
+  (fp_text value CONN_01X10 (at 22.86 -5.08) (layer F.Fab) hide
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
   (fp_line (start -3.54 3.8) (end 49.26 3.8) (layer F.SilkS) (width 0.15))
@@ -20,12 +20,12 @@
   (pad 8 thru_hole circle (at 35.56 0) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad 9 thru_hole circle (at 40.64 0) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
   (pad 10 thru_hole circle (at 45.72 0) (size 2.5 2.5) (drill 1.4) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../Users/gtetil/Documents/Projects/Smart Tank/Motherboard/Smart_Tank_3D/PHX_TB_HDR_10_POS_STR_(1755817).wrl"
+  (model "../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/PHX_TB_HDR_10_POS_STR_(1755817).wrl"
     (at (xyz 1.94 0.15 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 270 0 270))
   )
-  (model "../../../../../../Users/gtetil/Documents/Projects/Smart Tank/Motherboard/Smart_Tank_3D/PHNX_TB_PLUG_10_POS_(1792320).wrl"
+  (model "../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/PHNX_TB_PLUG_10_POS_(1792320).wrl"
     (at (xyz 1.9 0.075 0.47))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 270 0 270))
