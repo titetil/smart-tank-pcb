@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Modbus Adapter")(type KiCad)(uri "${KIPRJMOD}/Modbus Adapter.pretty")(options "")(descr ""))
+)

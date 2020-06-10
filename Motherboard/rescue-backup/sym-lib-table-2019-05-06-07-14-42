@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Smart-Tank-Motherboard-rescue)(type Legacy)(uri "${KIPRJMOD}/Smart Tank Motherboard-rescue.lib")(options "")(descr ""))
+)

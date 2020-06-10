@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Smart Tank Motherboard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Smart Tank Motherboard-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR) RMC_CONN1
+L Smart-Tank-Motherboard-rescue:SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR) RMC_CONN1
 U 1 1 578FBA63
 P 1750 3950
 F 0 "RMC_CONN1" H 2050 6050 50  0000 C CNN
@@ -116,7 +86,7 @@ Text GLabel 4300 3500 2    39   Input ~ 0
 Text GLabel 4300 3900 2    39   Input ~ 0
 24VDC
 $Comp
-L CONN_02X25 EXPANSION_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_02X25 EXPANSION_CONN1
 U 1 1 578FCF49
 P 4050 3200
 F 0 "EXPANSION_CONN1" H 4050 4500 50  0000 C CNN
@@ -127,7 +97,7 @@ F 3 "" H 4050 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L Smart-Tank-Motherboard-rescue:GND #PWR04
 U 1 1 578FD0EE
 P 3700 4750
 F 0 "#PWR04" H 3700 4500 50  0001 C CNN
@@ -162,7 +132,7 @@ POS_6_SPR_1
 Text GLabel 4300 3400 2    39   Input ~ 0
 POS_6_SPR_2
 $Comp
-L GND #PWR05
+L Smart-Tank-Motherboard-rescue:GND #PWR05
 U 1 1 578FD7C3
 P 1450 5250
 F 0 "#PWR05" H 1450 5000 50  0001 C CNN
@@ -187,7 +157,7 @@ AI_CDI
 Text GLabel 2600 4800 2    39   Input ~ 0
 AI_CONVST
 $Comp
-L CONN_02X05 CAN_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_02X05 CAN_CONN1
 U 1 1 5790B1A2
 P 6550 1500
 F 0 "CAN_CONN1" H 6550 1800 50  0000 C CNN
@@ -202,7 +172,7 @@ CAN_LO
 Text GLabel 6150 1600 0    39   Input ~ 0
 CAN_HI
 $Comp
-L CONN_02X25 RIO_AIO_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_02X25 RIO_AIO_CONN1
 U 1 1 5790B5BC
 P 6550 4150
 F 0 "RIO_AIO_CONN1" H 6550 5450 50  0000 C CNN
@@ -213,7 +183,7 @@ F 3 "" H 6550 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L Smart-Tank-Motherboard-rescue:GND #PWR06
 U 1 1 5790B753
 P 6150 5650
 F 0 "#PWR06" H 6150 5400 50  0001 C CNN
@@ -256,7 +226,7 @@ AI14
 Text GLabel 6000 4050 0    39   Input ~ 0
 AI15
 $Comp
-L CONN_01X02 RIO_PWR_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_01X02 RIO_PWR_CONN1
 U 1 1 5790DCFC
 P 8300 1350
 F 0 "RIO_PWR_CONN1" H 8300 1500 50  0000 C CNN
@@ -267,7 +237,7 @@ F 3 "" H 8300 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L Smart-Tank-Motherboard-rescue:GND #PWR07
 U 1 1 5790E1D4
 P 7950 1500
 F 0 "#PWR07" H 7950 1250 50  0001 C CNN
@@ -282,7 +252,7 @@ Text GLabel 8100 1300 0    39   Input ~ 0
 Text GLabel 4300 3700 2    39   Input ~ 0
 5VDC
 $Comp
-L LM358 U1
+L Smart-Tank-Motherboard-rescue:LM358 U1
 U 1 1 57965B78
 P 8450 2650
 F 0 "U1" H 8400 2850 50  0000 L CNN
@@ -293,7 +263,7 @@ F 3 "" H 8450 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358 U1
+L Smart-Tank-Motherboard-rescue:LM358 U1
 U 2 1 57965BB9
 P 8450 3600
 F 0 "U1" H 8400 3800 50  0000 L CNN
@@ -304,7 +274,7 @@ F 3 "" H 8450 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358 U2
+L Smart-Tank-Motherboard-rescue:LM358 U2
 U 1 1 57965FA5
 P 8450 4550
 F 0 "U2" H 8400 4750 50  0000 L CNN
@@ -315,7 +285,7 @@ F 3 "" H 8450 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L Smart-Tank-Motherboard-rescue:GND #PWR08
 U 1 1 57966265
 P 8350 5950
 F 0 "#PWR08" H 8350 5700 50  0001 C CNN
@@ -544,7 +514,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 5400 8150 5400
 $Comp
-L CONN_01X06 AO_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_01X06 AO_CONN1
 U 1 1 57966E66
 P 9650 2900
 F 0 "AO_CONN1" H 9650 3250 50  0000 C CNN
@@ -625,7 +595,7 @@ NoConn ~ 1450 4900
 NoConn ~ 1450 5000
 NoConn ~ 1450 5100
 $Comp
-L R R19
+L Smart-Tank-Motherboard-rescue:R R19
 U 1 1 5798A433
 P 6550 2000
 F 0 "R19" V 6630 2000 50  0000 C CNN
@@ -652,7 +622,7 @@ Connection ~ 6200 1600
 Wire Wire Line
 	5650 1400 6300 1400
 $Comp
-L LM358 U2
+L Smart-Tank-Motherboard-rescue:LM358 U2
 U 2 1 57A1F820
 P 8450 5500
 F 0 "U2" H 8400 5700 50  0000 L CNN
@@ -663,7 +633,7 @@ F 3 "" H 8450 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L Smart-Tank-Motherboard-rescue:GND #PWR09
 U 1 1 57A33686
 P 5650 1650
 F 0 "#PWR09" H 5650 1400 50  0001 C CNN
@@ -700,7 +670,7 @@ Wire Wire Line
 	4300 4100 4450 4100
 Connection ~ 4450 4200
 $Comp
-L CONN_01X10 SP1-6_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_01X10 SP1-6_CONN1
 U 1 1 5979F58B
 P 4450 6050
 F 0 "SP1-6_CONN1" H 4450 5500 50  0000 C CNN
@@ -755,7 +725,7 @@ SPARE_5
 Text GLabel 4250 6100 0    39   Input ~ 0
 SPARE_6
 $Comp
-L CONN_01X03 PWR_SEL_4
+L Smart-Tank-Motherboard-rescue:CONN_01X03 PWR_SEL_4
 U 1 1 597A1182
 P 3300 6400
 F 0 "PWR_SEL_4" H 3300 6600 50  0000 C CNN
@@ -773,7 +743,7 @@ Wire Wire Line
 	4150 6500 4150 6400
 Connection ~ 4150 6400
 $Comp
-L GND #PWR010
+L Smart-Tank-Motherboard-rescue:GND #PWR010
 U 1 1 597A13CB
 P 4050 6600
 F 0 "#PWR010" H 4050 6350 50  0001 C CNN

@@ -1,0 +1,809 @@
+EESchema Schematic File Version 2
+LIBS:Smart Tank Motherboard-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Smart Tank Motherboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR) RMC_CONN1
+U 1 1 578FBA63
+P 1750 3950
+F 0 "RMC_CONN1" H 2050 6050 50  0000 C CNN
+F 1 "SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR)" H 2100 2400 50  0000 C CNN
+F 2 "Smart_Tank:SAMTEC_CONN_(SEAM-40-03.0-S-06-2-A-K-TR)" H 1750 3950 50  0001 C CNN
+F 3 "" H 1750 3950 50  0000 C CNN
+	1    1750 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 5350 2    39   Input ~ 0
+5VDC
+Text GLabel 2600 5250 2    39   Input ~ 0
+3.3VDC
+Text GLabel 1450 2000 0    39   Input ~ 0
+DIO0
+Text GLabel 1450 2100 0    39   Input ~ 0
+DIO1
+Text GLabel 1450 2200 0    39   Input ~ 0
+DIO2
+Text GLabel 1450 2300 0    39   Input ~ 0
+DIO3
+Text GLabel 1450 2400 0    39   Input ~ 0
+DIO4
+Text GLabel 1450 2500 0    39   Input ~ 0
+DIO5
+Text GLabel 1450 2600 0    39   Input ~ 0
+DIO6
+Text GLabel 1450 2700 0    39   Input ~ 0
+DIO7
+Text GLabel 1450 2800 0    39   Input ~ 0
+DIO8
+Text GLabel 1450 2900 0    39   Input ~ 0
+DIO9
+Text GLabel 1450 3000 0    39   Input ~ 0
+DIO10
+Text GLabel 1450 3100 0    39   Input ~ 0
+DIO11
+Text GLabel 1450 3200 0    39   Input ~ 0
+DIO12
+Text GLabel 1450 3300 0    39   Input ~ 0
+DIO13
+Text GLabel 1450 3400 0    39   Input ~ 0
+DIO14
+Text GLabel 1450 3500 0    39   Input ~ 0
+DIO15
+Text GLabel 1450 3600 0    39   Input ~ 0
+DIO16
+Text GLabel 1450 3700 0    39   Input ~ 0
+DIO17
+Text GLabel 1450 3800 0    39   Input ~ 0
+DIO18
+Text GLabel 1450 3900 0    39   Input ~ 0
+DIO19
+Text GLabel 1450 4000 0    39   Input ~ 0
+DIO20
+Text GLabel 1450 4100 0    39   Input ~ 0
+DIO21
+Text GLabel 1450 4200 0    39   Input ~ 0
+DIO22
+Text GLabel 1450 4300 0    39   Input ~ 0
+DIO23
+Text GLabel 1450 4400 0    39   Input ~ 0
+DIO24
+Text GLabel 1450 4500 0    39   Input ~ 0
+DIO25
+Text GLabel 4300 3500 2    39   Input ~ 0
+3.3VDC
+Text GLabel 4300 3900 2    39   Input ~ 0
+24VDC
+$Comp
+L CONN_02X25 EXPANSION_CONN1
+U 1 1 578FCF49
+P 4050 3200
+F 0 "EXPANSION_CONN1" H 4050 4500 50  0000 C CNN
+F 1 "CONN_02X25" H 4050 1900 50  0000 C CNN
+F 2 "Connect:IDC_Header_Straight_50pins" H 4050 2450 50  0001 C CNN
+F 3 "" H 4050 2450 50  0000 C CNN
+	1    4050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 578FD0EE
+P 3700 4750
+F 0 "#PWR04" H 3700 4500 50  0001 C CNN
+F 1 "GND" H 3700 4600 50  0000 C CNN
+F 2 "" H 3700 4750 50  0000 C CNN
+F 3 "" H 3700 4750 50  0000 C CNN
+	1    3700 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 2300 2    39   Input ~ 0
+POS_1_SPR_1
+Text GLabel 4300 2400 2    39   Input ~ 0
+POS_1_SPR_2
+Text GLabel 4300 2500 2    39   Input ~ 0
+POS_2_SPR_1
+Text GLabel 4300 2600 2    39   Input ~ 0
+POS_2_SPR_2
+Text GLabel 4300 2700 2    39   Input ~ 0
+POS_3_SPR_1
+Text GLabel 4300 2800 2    39   Input ~ 0
+POS_3_SPR_2
+Text GLabel 4300 2900 2    39   Input ~ 0
+POS_4_SPR_1
+Text GLabel 4300 3000 2    39   Input ~ 0
+POS_4_SPR_2
+Text GLabel 4300 3100 2    39   Input ~ 0
+POS_5_SPR_1
+Text GLabel 4300 3200 2    39   Input ~ 0
+POS_5_SPR_2
+Text GLabel 4300 3300 2    39   Input ~ 0
+POS_6_SPR_1
+Text GLabel 4300 3400 2    39   Input ~ 0
+POS_6_SPR_2
+$Comp
+L GND #PWR05
+U 1 1 578FD7C3
+P 1450 5250
+F 0 "#PWR05" H 1450 5000 50  0001 C CNN
+F 1 "GND" H 1450 5100 50  0000 C CNN
+F 2 "" H 1450 5250 50  0000 C CNN
+F 3 "" H 1450 5250 50  0000 C CNN
+	1    1450 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 4200 2    39   Input ~ 0
+AI_CLK
+Text GLabel 2600 4300 2    39   Input ~ 0
+AI_MISO
+Text GLabel 2600 4400 2    39   Input ~ 0
+AI_MOSI
+Text GLabel 2600 4500 2    39   Input ~ 0
+AI_CS0
+Text GLabel 2600 4600 2    39   Input ~ 0
+AI_CS1
+Text GLabel 2600 4700 2    39   Input ~ 0
+AI_CDI
+Text GLabel 2600 4800 2    39   Input ~ 0
+AI_CONVST
+$Comp
+L CONN_02X05 CAN_CONN1
+U 1 1 5790B1A2
+P 6550 1500
+F 0 "CAN_CONN1" H 6550 1800 50  0000 C CNN
+F 1 "CONN_02X05" H 6550 1200 50  0000 C CNN
+F 2 "Connect:IDC_Header_Straight_10pins" H 6550 300 50  0001 C CNN
+F 3 "" H 6550 300 50  0000 C CNN
+	1    6550 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 1300 2    39   Input ~ 0
+CAN_LO
+Text GLabel 6150 1600 0    39   Input ~ 0
+CAN_HI
+$Comp
+L CONN_02X25 RIO_AIO_CONN1
+U 1 1 5790B5BC
+P 6550 4150
+F 0 "RIO_AIO_CONN1" H 6550 5450 50  0000 C CNN
+F 1 "CONN_02X25" H 6550 2850 50  0000 C CNN
+F 2 "Smart_Tank:50-PIN_HEADER_2mm" H 6550 3400 50  0001 C CNN
+F 3 "" H 6550 3400 50  0000 C CNN
+	1    6550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5790B753
+P 6150 5650
+F 0 "#PWR06" H 6150 5400 50  0001 C CNN
+F 1 "GND" H 6150 5500 50  0000 C CNN
+F 2 "" H 6150 5650 50  0000 C CNN
+F 3 "" H 6150 5650 50  0000 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 2950 2    39   Input ~ 0
+AI0
+Text GLabel 7100 3150 2    39   Input ~ 0
+AI1
+Text GLabel 7100 3250 2    39   Input ~ 0
+AI2
+Text GLabel 7100 3450 2    39   Input ~ 0
+AI3
+Text GLabel 7100 3550 2    39   Input ~ 0
+AI4
+Text GLabel 7100 3750 2    39   Input ~ 0
+AI5
+Text GLabel 7100 3850 2    39   Input ~ 0
+AI6
+Text GLabel 7100 4050 2    39   Input ~ 0
+AI7
+Text GLabel 6000 3050 0    39   Input ~ 0
+AI8
+Text GLabel 6000 3150 0    39   Input ~ 0
+AI9
+Text GLabel 6000 3350 0    39   Input ~ 0
+AI10
+Text GLabel 6000 3450 0    39   Input ~ 0
+AI11
+Text GLabel 6000 3650 0    39   Input ~ 0
+AI12
+Text GLabel 6000 3750 0    39   Input ~ 0
+AI13
+Text GLabel 6000 3950 0    39   Input ~ 0
+AI14
+Text GLabel 6000 4050 0    39   Input ~ 0
+AI15
+$Comp
+L CONN_01X02 RIO_PWR_CONN1
+U 1 1 5790DCFC
+P 8300 1350
+F 0 "RIO_PWR_CONN1" H 8300 1500 50  0000 C CNN
+F 1 "CONN_01X02" H 8300 1200 50  0000 C CNN
+F 2 "Smart_Tank:MOLEX_2-PIN_CONN_(0039300020)" H 8300 1350 50  0001 C CNN
+F 3 "" H 8300 1350 50  0000 C CNN
+	1    8300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5790E1D4
+P 7950 1500
+F 0 "#PWR07" H 7950 1250 50  0001 C CNN
+F 1 "GND" H 7950 1350 50  0000 C CNN
+F 2 "" H 7950 1500 50  0000 C CNN
+F 3 "" H 7950 1500 50  0000 C CNN
+	1    7950 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8100 1300 0    39   Input ~ 0
+24VDC
+Text GLabel 4300 3700 2    39   Input ~ 0
+5VDC
+$Comp
+L LM358 U1
+U 1 1 57965B78
+P 8450 2650
+F 0 "U1" H 8400 2850 50  0000 L CNN
+F 1 "LM358" H 8400 2400 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8450 2650 50  0001 C CNN
+F 3 "" H 8450 2650 50  0000 C CNN
+	1    8450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM358 U1
+U 2 1 57965BB9
+P 8450 3600
+F 0 "U1" H 8400 3800 50  0000 L CNN
+F 1 "LM358" H 8400 3350 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8450 3600 50  0001 C CNN
+F 3 "" H 8450 3600 50  0000 C CNN
+	2    8450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM358 U2
+U 1 1 57965FA5
+P 8450 4550
+F 0 "U2" H 8400 4750 50  0000 L CNN
+F 1 "LM358" H 8400 4300 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8450 4550 50  0001 C CNN
+F 3 "" H 8450 4550 50  0000 C CNN
+	1    8450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 57966265
+P 8350 5950
+F 0 "#PWR08" H 8350 5700 50  0001 C CNN
+F 1 "GND" H 8350 5800 50  0000 C CNN
+F 2 "" H 8350 5950 50  0000 C CNN
+F 3 "" H 8350 5950 50  0000 C CNN
+	1    8350 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 2300 0    39   Input ~ 0
+24VDC
+Wire Wire Line
+	2600 2000 3800 2000
+Wire Wire Line
+	3800 2100 2600 2100
+Wire Wire Line
+	2600 2200 3800 2200
+Wire Wire Line
+	2600 2300 3800 2300
+Wire Wire Line
+	3800 2400 2600 2400
+Wire Wire Line
+	2600 2500 3800 2500
+Wire Wire Line
+	3800 2600 2600 2600
+Wire Wire Line
+	2600 2700 3800 2700
+Wire Wire Line
+	3800 2800 2600 2800
+Wire Wire Line
+	2600 2900 3800 2900
+Wire Wire Line
+	2600 3000 3800 3000
+Wire Wire Line
+	2600 3100 3800 3100
+Wire Wire Line
+	3800 3200 2600 3200
+Wire Wire Line
+	2600 3300 3800 3300
+Wire Wire Line
+	3800 4200 3700 4200
+Wire Wire Line
+	3700 4200 3700 4750
+Wire Wire Line
+	3800 4300 3700 4300
+Connection ~ 3700 4300
+Wire Wire Line
+	3800 4400 3700 4400
+Connection ~ 3700 4400
+Wire Wire Line
+	6150 2950 6150 5650
+Wire Wire Line
+	6150 2950 6300 2950
+Wire Wire Line
+	6300 3250 6150 3250
+Connection ~ 6150 3250
+Wire Wire Line
+	6300 3550 6150 3550
+Connection ~ 6150 3550
+Wire Wire Line
+	6300 3850 6150 3850
+Connection ~ 6150 3850
+Wire Wire Line
+	6300 4150 6150 4150
+Connection ~ 6150 4150
+Wire Wire Line
+	6150 4250 6300 4250
+Connection ~ 6150 4250
+Wire Wire Line
+	6150 4350 6300 4350
+Connection ~ 6150 4350
+Wire Wire Line
+	6300 4450 6150 4450
+Connection ~ 6150 4450
+Wire Wire Line
+	6150 4550 6300 4550
+Connection ~ 6150 4550
+Wire Wire Line
+	6300 4650 6150 4650
+Connection ~ 6150 4650
+Wire Wire Line
+	6300 4750 6150 4750
+Connection ~ 6150 4750
+Wire Wire Line
+	6300 4850 6150 4850
+Connection ~ 6150 4850
+Wire Wire Line
+	6300 4950 6150 4950
+Connection ~ 6150 4950
+Wire Wire Line
+	6300 5050 6150 5050
+Connection ~ 6150 5050
+Wire Wire Line
+	6300 5150 6150 5150
+Connection ~ 6150 5150
+Wire Wire Line
+	6300 5250 6150 5250
+Connection ~ 6150 5250
+Wire Wire Line
+	6300 5350 6150 5350
+Connection ~ 6150 5350
+Wire Wire Line
+	6950 4150 6800 4150
+Wire Wire Line
+	6950 3050 6950 5550
+Wire Wire Line
+	6950 5550 6150 5550
+Connection ~ 6150 5550
+Wire Wire Line
+	6800 3950 6950 3950
+Connection ~ 6950 4150
+Wire Wire Line
+	6800 3650 6950 3650
+Connection ~ 6950 3950
+Wire Wire Line
+	6800 3350 6950 3350
+Connection ~ 6950 3650
+Wire Wire Line
+	6800 3050 6950 3050
+Connection ~ 6950 3350
+Wire Wire Line
+	6000 3050 6300 3050
+Wire Wire Line
+	6300 3150 6000 3150
+Wire Wire Line
+	6000 3350 6300 3350
+Wire Wire Line
+	6300 3450 6000 3450
+Wire Wire Line
+	6000 3650 6300 3650
+Wire Wire Line
+	6300 3750 6000 3750
+Wire Wire Line
+	6000 3950 6300 3950
+Wire Wire Line
+	6300 4050 6000 4050
+Wire Wire Line
+	6800 2950 7100 2950
+Wire Wire Line
+	7100 3150 6800 3150
+Wire Wire Line
+	6800 3250 7100 3250
+Wire Wire Line
+	7100 3450 6800 3450
+Wire Wire Line
+	6800 3550 7100 3550
+Wire Wire Line
+	7100 3750 6800 3750
+Wire Wire Line
+	6800 3850 7100 3850
+Wire Wire Line
+	7100 4050 6800 4050
+Wire Wire Line
+	7650 4250 6800 4250
+Wire Wire Line
+	7800 4350 6800 4350
+Wire Wire Line
+	6800 4450 8150 4450
+Wire Wire Line
+	6800 4550 7800 4550
+Wire Wire Line
+	8100 1400 7950 1400
+Wire Wire Line
+	7950 1400 7950 1500
+Wire Wire Line
+	8350 5800 8350 5950
+Wire Wire Line
+	8350 5950 9350 5950
+Wire Wire Line
+	8900 2950 8900 5950
+Wire Wire Line
+	8900 4850 8350 4850
+Wire Wire Line
+	8900 3900 8350 3900
+Connection ~ 8900 4850
+Wire Wire Line
+	8900 2950 8350 2950
+Connection ~ 8900 3900
+Wire Wire Line
+	8350 2300 8350 2350
+Wire Wire Line
+	7800 2300 8350 2300
+Wire Wire Line
+	8350 3300 7950 3300
+Wire Wire Line
+	7950 2300 7950 5200
+Connection ~ 7950 2300
+Wire Wire Line
+	7950 4250 8350 4250
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 5200 8350 5200
+Connection ~ 7950 4250
+Wire Wire Line
+	8750 2650 8750 3050
+Wire Wire Line
+	8750 3050 8150 3050
+Wire Wire Line
+	8150 3050 8150 2750
+Wire Wire Line
+	8750 3600 8750 4000
+Wire Wire Line
+	8750 4000 8150 4000
+Wire Wire Line
+	8150 4000 8150 3700
+Wire Wire Line
+	8750 4550 8750 4950
+Wire Wire Line
+	8750 4950 8150 4950
+Wire Wire Line
+	8150 4950 8150 4650
+Wire Wire Line
+	8750 5500 8750 5850
+Wire Wire Line
+	8750 5850 8150 5850
+Wire Wire Line
+	8150 5850 8150 5600
+Wire Wire Line
+	7650 2550 7650 4250
+Wire Wire Line
+	7650 2550 8150 2550
+Wire Wire Line
+	7800 3500 7800 4350
+Wire Wire Line
+	7800 3500 8150 3500
+Wire Wire Line
+	7800 5400 8150 5400
+$Comp
+L CONN_01X06 AO_CONN1
+U 1 1 57966E66
+P 9650 2900
+F 0 "AO_CONN1" H 9650 3250 50  0000 C CNN
+F 1 "CONN_01X06" H 9650 2550 50  0000 C CNN
+F 2 "Smart_Tank:PHX_TB_HDR_6_POS_STR_(1755778)" H 9650 2900 50  0001 C CNN
+F 3 "" H 9650 2900 50  0000 C CNN
+	1    9650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2650 8750 2650
+Wire Wire Line
+	8750 3600 9000 3600
+Wire Wire Line
+	9000 3600 9000 2750
+Wire Wire Line
+	9000 2750 9450 2750
+Wire Wire Line
+	8750 4550 9100 4550
+Wire Wire Line
+	9100 4550 9100 2850
+Wire Wire Line
+	9100 2850 9450 2850
+Wire Wire Line
+	8750 5500 9200 5500
+Wire Wire Line
+	9200 5500 9200 2950
+Wire Wire Line
+	9200 2950 9450 2950
+Wire Wire Line
+	9450 3150 9350 3150
+Wire Wire Line
+	9350 5950 9350 3050
+Wire Wire Line
+	9350 3050 9450 3050
+Connection ~ 9350 3150
+Wire Wire Line
+	7800 4550 7800 5400
+Text Notes 9750 2650 0    43   ~ 0
+AO0
+Text Notes 9750 2750 0    43   ~ 0
+AO1
+Text Notes 9750 2850 0    43   ~ 0
+AO2
+Text Notes 9750 2950 0    43   ~ 0
+AO3
+Text Notes 9750 3050 0    43   ~ 0
+GND
+Text Notes 9750 3150 0    43   ~ 0
+GND
+Connection ~ 8900 5950
+Text GLabel 4300 2000 2    39   Input ~ 0
+AI6
+Text GLabel 4300 2100 2    39   Input ~ 0
+AI7
+NoConn ~ 6800 1400
+NoConn ~ 6800 1500
+NoConn ~ 6800 1600
+NoConn ~ 6800 1700
+NoConn ~ 6300 1700
+NoConn ~ 6300 1500
+NoConn ~ 6300 1300
+NoConn ~ 6800 4650
+NoConn ~ 6800 4750
+NoConn ~ 6800 4850
+NoConn ~ 6800 4950
+NoConn ~ 6800 5050
+NoConn ~ 6800 5150
+NoConn ~ 6800 5250
+NoConn ~ 6800 5350
+NoConn ~ 2600 4900
+NoConn ~ 2600 5000
+NoConn ~ 2600 5100
+NoConn ~ 1450 4600
+NoConn ~ 1450 4700
+NoConn ~ 1450 4800
+NoConn ~ 1450 4900
+NoConn ~ 1450 5000
+NoConn ~ 1450 5100
+$Comp
+L R R19
+U 1 1 5798A433
+P 6550 2000
+F 0 "R19" V 6630 2000 50  0000 C CNN
+F 1 "120" V 6550 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6480 2000 50  0001 C CNN
+F 3 "" H 6550 2000 50  0000 C CNN
+	1    6550 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 1600 6300 1600
+Wire Wire Line
+	6800 1300 6950 1300
+Wire Wire Line
+	6700 2000 6900 2000
+Wire Wire Line
+	6900 2000 6900 1300
+Connection ~ 6900 1300
+Wire Wire Line
+	6400 2000 6200 2000
+Wire Wire Line
+	6200 2000 6200 1600
+Connection ~ 6200 1600
+Wire Wire Line
+	5650 1400 6300 1400
+$Comp
+L LM358 U2
+U 2 1 57A1F820
+P 8450 5500
+F 0 "U2" H 8400 5700 50  0000 L CNN
+F 1 "LM358" H 8400 5250 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8450 5500 50  0001 C CNN
+F 3 "" H 8450 5500 50  0000 C CNN
+	2    8450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 57A33686
+P 5650 1650
+F 0 "#PWR09" H 5650 1400 50  0001 C CNN
+F 1 "GND" H 5650 1500 50  0000 C CNN
+F 2 "" H 5650 1650 50  0000 C CNN
+F 3 "" H 5650 1650 50  0000 C CNN
+	1    5650 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1400 5650 1650
+Text GLabel 4300 2200 2    39   Input ~ 0
+AI14
+Text GLabel 4300 3600 2    39   Input ~ 0
+3.3VDC
+Text GLabel 4300 3800 2    39   Input ~ 0
+5VDC
+Text GLabel 4300 4000 2    39   Input ~ 0
+24VDC
+Wire Wire Line
+	4300 4400 4450 4400
+Wire Wire Line
+	4450 4100 4450 4650
+Wire Wire Line
+	4450 4650 3700 4650
+Connection ~ 3700 4650
+Wire Wire Line
+	4300 4300 4450 4300
+Connection ~ 4450 4400
+Wire Wire Line
+	4450 4200 4300 4200
+Connection ~ 4450 4300
+Wire Wire Line
+	4300 4100 4450 4100
+Connection ~ 4450 4200
+$Comp
+L CONN_01X10 SP1-6_CONN1
+U 1 1 5979F58B
+P 4450 6050
+F 0 "SP1-6_CONN1" H 4450 5500 50  0000 C CNN
+F 1 "CONN_01X10" H 4450 6600 50  0000 C CNN
+F 2 "Smart_Tank:PHX_TB_HDR_10_POS_STR_(1755817)" H 4450 6050 50  0001 C CNN
+F 3 "" H 4450 6050 50  0001 C CNN
+	1    4450 6050
+	1    0    0    1   
+$EndComp
+Text Notes 4550 6500 0    43   ~ 0
+PWR
+Text Notes 4550 6400 0    43   ~ 0
+PWR
+Text Notes 4550 6300 0    43   ~ 0
+GND
+Text Notes 4550 6200 0    43   ~ 0
+GND
+Text Notes 4550 5600 0    43   ~ 0
+SPARE_1
+Text Notes 4550 5700 0    43   ~ 0
+SPARE_2
+Text Notes 4550 5800 0    43   ~ 0
+SPARE_3
+Text Notes 4550 5900 0    43   ~ 0
+SPARE_4
+Text Notes 4550 6000 0    43   ~ 0
+SPARE_5
+Text Notes 4550 6100 0    43   ~ 0
+SPARE_6
+Text GLabel 3800 3600 0    39   Input ~ 0
+SPARE_1
+Text GLabel 3800 3700 0    39   Input ~ 0
+SPARE_2
+Text GLabel 3800 3800 0    39   Input ~ 0
+SPARE_3
+Text GLabel 3800 3900 0    39   Input ~ 0
+SPARE_4
+Text GLabel 3800 4000 0    39   Input ~ 0
+SPARE_5
+Text GLabel 3800 4100 0    39   Input ~ 0
+SPARE_6
+Text GLabel 4250 5600 0    39   Input ~ 0
+SPARE_1
+Text GLabel 4250 5700 0    39   Input ~ 0
+SPARE_2
+Text GLabel 4250 5800 0    39   Input ~ 0
+SPARE_3
+Text GLabel 4250 5900 0    39   Input ~ 0
+SPARE_4
+Text GLabel 4250 6000 0    39   Input ~ 0
+SPARE_5
+Text GLabel 4250 6100 0    39   Input ~ 0
+SPARE_6
+$Comp
+L CONN_01X03 PWR_SEL_4
+U 1 1 597A1182
+P 3300 6400
+F 0 "PWR_SEL_4" H 3300 6600 50  0000 C CNN
+F 1 "CONN_01X03" H 3300 6200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3300 6400 50  0001 C CNN
+F 3 "" H 3300 6400 50  0001 C CNN
+	1    3300 6400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6400 4250 6400
+Wire Wire Line
+	4250 6500 4150 6500
+Wire Wire Line
+	4150 6500 4150 6400
+Connection ~ 4150 6400
+$Comp
+L GND #PWR010
+U 1 1 597A13CB
+P 4050 6600
+F 0 "#PWR010" H 4050 6350 50  0001 C CNN
+F 1 "GND" H 4050 6450 50  0000 C CNN
+F 2 "" H 4050 6600 50  0000 C CNN
+F 3 "" H 4050 6600 50  0000 C CNN
+	1    4050 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6600 4050 6200
+Wire Wire Line
+	4050 6200 4250 6200
+Wire Wire Line
+	4250 6300 4050 6300
+Connection ~ 4050 6300
+Text GLabel 3500 6300 2    39   Input ~ 0
+5VDC
+Text GLabel 3500 6500 2    39   Input ~ 0
+24VDC
+NoConn ~ 2600 3600
+NoConn ~ 2600 3700
+NoConn ~ 2600 3800
+NoConn ~ 2600 3900
+NoConn ~ 2600 4000
+NoConn ~ 2600 4100
+Text GLabel 3800 3400 0    39   Input ~ 0
+CAN_HI
+Text GLabel 3800 3500 0    39   Input ~ 0
+CAN_LO
+NoConn ~ 2600 3400
+NoConn ~ 2600 3500
+$EndSCHEMATC

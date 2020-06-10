@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Smart Tank Motherboard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Smart Tank Motherboard-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R63
+L Smart-Tank-Motherboard-rescue:R R63
 U 1 1 57A92AB7
 P 4250 5750
 F 0 "R63" V 4330 5750 50  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 4250 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R60
+L Smart-Tank-Motherboard-rescue:R R60
 U 1 1 57A92ABE
 P 3900 5900
 F 0 "R60" V 3980 5900 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 3900 5900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SCREW_TB_(1906129) PUMP_PWR_CONN_3
+L Smart-Tank-Motherboard-rescue:SCREW_TB_(1906129) PUMP_PWR_CONN_3
 U 1 1 57A92AC6
 P 2300 5150
 F 0 "PUMP_PWR_CONN_3" H 2300 5400 50  0000 C CNN
@@ -87,7 +57,7 @@ CAP-
 Text Notes 2200 5300 2    43   ~ 0
 CAP+
 $Comp
-L GND #PWR024
+L Smart-Tank-Motherboard-rescue:GND #PWR024
 U 1 1 57A92AD1
 P 3000 6350
 F 0 "#PWR024" H 3000 6100 50  0001 C CNN
@@ -98,7 +68,7 @@ F 3 "" H 3000 6350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SCREW_TB_(1906129) PUMP_CONN_3
+L Smart-Tank-Motherboard-rescue:SCREW_TB_(1906129) PUMP_CONN_3
 U 1 1 57A92AE6
 P 10050 1950
 F 0 "PUMP_CONN_3" H 10050 2200 50  0000 C CNN
@@ -118,7 +88,7 @@ P3
 Text Notes 10150 2100 0    43   ~ 0
 GND
 $Comp
-L POSITRONIC_CONN_(CBD13W6F) CTRL_CONN_3
+L Smart-Tank-Motherboard-rescue:POSITRONIC_CONN_(CBD13W6F) CTRL_CONN_3
 U 1 1 57A92AF1
 P 2200 1900
 F 0 "CTRL_CONN_3" H 2200 2550 50  0000 C CNN
@@ -129,7 +99,7 @@ F 3 "" H 2200 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FUSE_HOLDER_(01220083Z) PUMP_FUSE_3
+L Smart-Tank-Motherboard-rescue:FUSE_HOLDER_(01220083Z) PUMP_FUSE_3
 U 1 1 57A92AF8
 P 3900 5000
 AR Path="/57A92AF8" Ref="PUMP_FUSE_3"  Part="1" 
@@ -142,7 +112,7 @@ F 3 "" H 3900 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N_(FDMA430NZ) Q14
+L Smart-Tank-Motherboard-rescue:MOSFET_N_(FDMA430NZ) Q14
 U 1 1 57A92AFF
 P 4700 5700
 AR Path="/57A92AFF" Ref="Q14"  Part="1" 
@@ -155,7 +125,7 @@ F 3 "" H 4700 5700 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TE_AUTO_RELAY_(1432795-1) PWR_RLY_3
+L Smart-Tank-Motherboard-rescue:TE_AUTO_RELAY_(1432795-1) PWR_RLY_3
 U 1 1 57A92B06
 P 5700 5400
 F 0 "PWR_RLY_3" H 5800 5700 50  0000 C CNN
@@ -176,7 +146,7 @@ AI18
 Text GLabel 8850 5000 2    39   Input ~ 0
 AI24
 $Comp
-L OMRON_RELAY_(G6L-1F-DC24) IGN_RLY_3
+L Smart-Tank-Motherboard-rescue:OMRON_RELAY_(G6L-1F-DC24) IGN_RLY_3
 U 1 1 57A92B12
 P 5700 4000
 F 0 "IGN_RLY_3" H 5800 4300 50  0000 C CNN
@@ -187,7 +157,7 @@ F 3 "" H 5700 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N_(2N7002P,215) Q13
+L Smart-Tank-Motherboard-rescue:MOSFET_N_(2N7002P,215) Q13
 U 1 1 57A92B19
 P 4700 4350
 F 0 "Q13" H 4950 4425 50  0000 L CNN
@@ -198,7 +168,7 @@ F 3 "" H 4700 4350 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R62
+L Smart-Tank-Motherboard-rescue:R R62
 U 1 1 57A92B20
 P 4250 4400
 F 0 "R62" V 4330 4400 50  0000 C CNN
@@ -209,7 +179,7 @@ F 3 "" H 4250 4400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R59
+L Smart-Tank-Motherboard-rescue:R R59
 U 1 1 57A92B27
 P 3900 4550
 F 0 "R59" V 3980 4550 50  0000 C CNN
@@ -228,7 +198,7 @@ CAN_HI
 Text GLabel 2550 2550 2    39   Input ~ 0
 CAN_LO
 $Comp
-L DIODE_(1N4148X-TP) D7
+L Smart-Tank-Motherboard-rescue:DIODE_(1N4148X-TP) D7
 U 1 1 57A92B32
 P 4300 4000
 F 0 "D7" H 4450 4050 50  0000 C CNN
@@ -243,7 +213,7 @@ POS_3_SPR_1
 Text GLabel 2550 2350 2    39   Input ~ 0
 POS_3_SPR_2
 $Comp
-L MOSFET_N_(2N7002P,215) Q12
+L Smart-Tank-Motherboard-rescue:MOSFET_N_(2N7002P,215) Q12
 U 1 1 57A92B3B
 P 4700 3150
 F 0 "Q12" H 4600 3400 50  0000 R CNN
@@ -254,7 +224,7 @@ F 3 "" H 4700 3150 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_P_(BS250FTA) Q15
+L Smart-Tank-Motherboard-rescue:MOSFET_P_(BS250FTA) Q15
 U 1 1 57A92B42
 P 5300 2850
 F 0 "Q15" H 5600 2900 50  0000 R CNN
@@ -265,7 +235,7 @@ F 3 "" H 5300 2850 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R61
+L Smart-Tank-Motherboard-rescue:R R61
 U 1 1 57A92B49
 P 4250 3200
 F 0 "R61" V 4330 3200 50  0000 C CNN
@@ -276,7 +246,7 @@ F 3 "" H 4250 3200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R64
+L Smart-Tank-Motherboard-rescue:R R64
 U 1 1 57A92B50
 P 4800 2700
 F 0 "R64" V 4880 2700 50  0000 C CNN
@@ -289,7 +259,7 @@ $EndComp
 Text GLabel 3750 3200 0    39   Input ~ 0
 DIO2
 $Comp
-L R R58
+L Smart-Tank-Motherboard-rescue:R R58
 U 1 1 57A92B58
 P 3900 3400
 F 0 "R58" V 3980 3400 50  0000 C CNN
@@ -301,7 +271,7 @@ F 3 "" H 3900 3400 50  0000 C CNN
 $EndComp
 NoConn ~ 6150 5300
 $Comp
-L C C33
+L Smart-Tank-Motherboard-rescue:C C33
 U 1 1 57A92B6A
 P 8550 1050
 F 0 "C33" H 8575 1150 50  0000 L CNN
@@ -312,7 +282,7 @@ F 3 "" H 8550 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L Smart-Tank-Motherboard-rescue:C C31
 U 1 1 57A92B71
 P 7350 1050
 F 0 "C31" H 7375 1150 50  0000 L CNN
@@ -323,7 +293,7 @@ F 3 "" H 7350 1050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C34
+L Smart-Tank-Motherboard-rescue:C C34
 U 1 1 57A92B78
 P 8550 4700
 F 0 "C34" H 8575 4800 50  0000 L CNN
@@ -334,7 +304,7 @@ F 3 "" H 8550 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L Smart-Tank-Motherboard-rescue:C C32
 U 1 1 57A92B7F
 P 7350 4700
 F 0 "C32" H 7375 4800 50  0000 L CNN
@@ -345,7 +315,7 @@ F 3 "" H 7350 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CTS_DIP_SW_(219-6MST) PUMP_CONFIG_3
+L Smart-Tank-Motherboard-rescue:CTS_DIP_SW_(219-6MST) PUMP_CONFIG_3
 U 1 1 57A92B86
 P 8800 2900
 F 0 "PUMP_CONFIG_3" H 8800 3300 50  0000 C CNN
@@ -364,7 +334,7 @@ NoConn ~ 9150 3150
 NoConn ~ 8450 3050
 NoConn ~ 8450 3150
 $Comp
-L R R65
+L Smart-Tank-Motherboard-rescue:R R65
 U 1 1 57A92B9A
 P 7750 2900
 F 0 "R65" V 7830 2900 50  0000 C CNN
@@ -375,7 +345,7 @@ F 3 "" H 7750 2900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R66
+L Smart-Tank-Motherboard-rescue:R R66
 U 1 1 57A92BA1
 P 8000 2650
 F 0 "R66" V 7900 2650 50  0000 C CNN
@@ -639,7 +609,7 @@ Connection ~ 7750 3200
 Wire Wire Line
 	4800 2550 4800 2500
 $Comp
-L D D8
+L Smart-Tank-Motherboard-rescue:D D8
 U 1 1 57A92C5F
 P 9550 2650
 F 0 "D8" H 9550 2750 50  0000 C CNN
@@ -654,7 +624,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 2650 9850 2650
 $Comp
-L LEM_CURRENT_(HLSR_32-P/SP33) PUMP_AMPS_3
+L Smart-Tank-Motherboard-rescue:LEM_CURRENT_(HLSR_32-P_SP33) PUMP_AMPS_3
 U 1 1 57B744CA
 P 7850 1550
 F 0 "PUMP_AMPS_3" H 8000 1850 50  0000 C CNN
@@ -665,7 +635,7 @@ F 3 "" H 7850 350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEM_CURRENT_(HLSR_32-P/SP33) CTRL_AMPS_3
+L Smart-Tank-Motherboard-rescue:LEM_CURRENT_(HLSR_32-P_SP33) CTRL_AMPS_3
 U 1 1 57B76519
 P 7850 5200
 F 0 "CTRL_AMPS_3" H 8000 5500 50  0000 C CNN
@@ -713,7 +683,7 @@ Wire Wire Line
 	2550 2650 3000 2650
 Connection ~ 3000 3600
 $Comp
-L C C51
+L Smart-Tank-Motherboard-rescue:C C51
 U 1 1 57D1E7D7
 P 9150 1050
 F 0 "C51" H 9175 1150 50  0000 L CNN
@@ -731,7 +701,7 @@ Wire Wire Line
 	9150 800  9150 900 
 Connection ~ 8550 800 
 $Comp
-L C C52
+L Smart-Tank-Motherboard-rescue:C C52
 U 1 1 57D1EEF9
 P 9250 4700
 F 0 "C52" H 9275 4800 50  0000 L CNN
@@ -749,7 +719,7 @@ Wire Wire Line
 	9250 4450 9250 4550
 Connection ~ 8550 4450
 $Comp
-L NKK_TOGGLE_(G3T12AP) CAP_TOGGLE_3
+L Smart-Tank-Motherboard-rescue:NKK_TOGGLE_(G3T12AP) CAP_TOGGLE_3
 U 1 1 59769ABD
 P 2300 5750
 F 0 "CAP_TOGGLE_3" H 2300 5950 50  0000 C CNN
@@ -766,7 +736,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 5300 4550 5300
 $Comp
-L D D18
+L Smart-Tank-Motherboard-rescue:D D18
 U 1 1 5976AFD3
 P 6850 5650
 F 0 "D18" V 6850 5750 50  0000 C CNN
@@ -780,7 +750,7 @@ Wire Wire Line
 	6850 5800 6850 6050
 Connection ~ 6850 6050
 $Comp
-L R R40
+L Smart-Tank-Motherboard-rescue:R R40
 U 1 1 5978C0C0
 P 2800 5850
 F 0 "R40" V 2700 5850 50  0000 C CNN
@@ -802,7 +772,7 @@ Wire Wire Line
 	2950 5850 3000 5850
 Connection ~ 3000 5850
 $Comp
-L CONN_01X04 PUMP_V_CONN_3
+L Smart-Tank-Motherboard-rescue:CONN_01X04 PUMP_V_CONN_3
 U 1 1 59799063
 P 10050 2800
 F 0 "PUMP_V_CONN_3" H 10050 3050 50  0000 C CNN

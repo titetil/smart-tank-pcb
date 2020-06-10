@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Smart Tank Motherboard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Smart Tank Motherboard-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -59,7 +29,7 @@ E-STOP_IN
 Text Notes 1750 2500 2    49   ~ 0
 E-STOP_OUT
 $Comp
-L GND #PWR01
+L Smart-Tank-Motherboard-rescue:GND #PWR01
 U 1 1 578941DC
 P 6950 3900
 F 0 "#PWR01" H 6950 3650 50  0001 C CNN
@@ -78,7 +48,7 @@ F0 "RIO_CONNECTIONS" 60
 F1 "RIO_CONNECTIONS.sch" 60
 $EndSheet
 $Comp
-L FUSE_HOLDER_(01220083Z) 24VDC_FUSE1
+L Smart-Tank-Motherboard-rescue:FUSE_HOLDER_(01220083Z) 24VDC_FUSE1
 U 1 1 5790EBB7
 P 7600 2150
 F 0 "24VDC_FUSE1" H 7600 2300 50  0000 C CNN
@@ -113,7 +83,7 @@ DIO24
 Text GLabel 2050 5500 2    39   Input ~ 0
 DIO25
 $Comp
-L OMRON_RELAY_(G6L-1F-DC24) RELAY_1
+L Smart-Tank-Motherboard-rescue:OMRON_RELAY_(G6L-1F-DC24) RELAY_1
 U 1 1 57911942
 P 5250 5000
 F 0 "RELAY_1" H 5350 5300 50  0000 C CNN
@@ -124,7 +94,7 @@ F 3 "" H 5250 3800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N_(2N7002P,215) Q6
+L Smart-Tank-Motherboard-rescue:MOSFET_N_(2N7002P,215) Q6
 U 1 1 57911949
 P 4500 5350
 F 0 "Q6" H 4750 5425 50  0000 L CNN
@@ -135,7 +105,7 @@ F 3 "" H 4500 5350 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Smart-Tank-Motherboard-rescue:R R12
 U 1 1 57911950
 P 4050 5400
 F 0 "R12" V 4130 5400 50  0000 C CNN
@@ -146,7 +116,7 @@ F 3 "" H 4050 5400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
+L Smart-Tank-Motherboard-rescue:R R9
 U 1 1 57911957
 P 3700 5550
 F 0 "R9" V 3780 5550 50  0000 C CNN
@@ -161,7 +131,7 @@ DIO20
 Text GLabel 3550 4900 0    39   Input ~ 0
 24VDC
 $Comp
-L DIODE_(1N4148X-TP) D3
+L Smart-Tank-Motherboard-rescue:DIODE_(1N4148X-TP) D3
 U 1 1 57911960
 P 4100 5000
 F 0 "D3" H 4250 5050 50  0000 C CNN
@@ -172,7 +142,7 @@ F 3 "" H 4100 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OMRON_RELAY_(G6L-1F-DC24) RELAY_2
+L Smart-Tank-Motherboard-rescue:OMRON_RELAY_(G6L-1F-DC24) RELAY_2
 U 1 1 57911F1A
 P 5250 6200
 F 0 "RELAY_2" H 5350 6500 50  0000 C CNN
@@ -183,7 +153,7 @@ F 3 "" H 5250 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N_(2N7002P,215) Q7
+L Smart-Tank-Motherboard-rescue:MOSFET_N_(2N7002P,215) Q7
 U 1 1 57911F21
 P 4500 6550
 F 0 "Q7" H 4750 6625 50  0000 L CNN
@@ -194,7 +164,7 @@ F 3 "" H 4500 6550 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L Smart-Tank-Motherboard-rescue:R R13
 U 1 1 57911F28
 P 4050 6600
 F 0 "R13" V 4130 6600 50  0000 C CNN
@@ -205,7 +175,7 @@ F 3 "" H 4050 6600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L Smart-Tank-Motherboard-rescue:R R10
 U 1 1 57911F2F
 P 3700 6750
 F 0 "R10" V 3780 6750 50  0000 C CNN
@@ -220,7 +190,7 @@ DIO21
 Text GLabel 3550 6100 0    39   Input ~ 0
 24VDC
 $Comp
-L DIODE_(1N4148X-TP) D4
+L Smart-Tank-Motherboard-rescue:DIODE_(1N4148X-TP) D4
 U 1 1 57911F38
 P 4100 6200
 F 0 "D4" H 4250 6250 50  0000 C CNN
@@ -231,7 +201,7 @@ F 3 "" H 4100 6200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L Smart-Tank-Motherboard-rescue:GND #PWR02
 U 1 1 579120A4
 P 3000 7000
 F 0 "#PWR02" H 3000 6750 50  0001 C CNN
@@ -242,7 +212,7 @@ F 3 "" H 3000 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OMRON_RELAY_(G6L-1F-DC24) E-STOP_RLY1
+L Smart-Tank-Motherboard-rescue:OMRON_RELAY_(G6L-1F-DC24) E-STOP_RLY1
 U 1 1 57914B8C
 P 5250 3050
 F 0 "E-STOP_RLY1" H 5350 3350 50  0000 C CNN
@@ -253,7 +223,7 @@ F 3 "" H 5250 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOSFET_N_(2N7002P,215) Q5
+L Smart-Tank-Motherboard-rescue:MOSFET_N_(2N7002P,215) Q5
 U 1 1 57914B93
 P 4500 3400
 F 0 "Q5" H 4750 3475 50  0000 L CNN
@@ -264,7 +234,7 @@ F 3 "" H 4500 3400 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L Smart-Tank-Motherboard-rescue:R R11
 U 1 1 57914B9A
 P 4050 3450
 F 0 "R11" V 4130 3450 50  0000 C CNN
@@ -275,7 +245,7 @@ F 3 "" H 4050 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L Smart-Tank-Motherboard-rescue:R R8
 U 1 1 57914BA1
 P 3700 3600
 F 0 "R8" V 3780 3600 50  0000 C CNN
@@ -290,7 +260,7 @@ DIO18
 Text GLabel 3550 2950 0    39   Input ~ 0
 24VDC
 $Comp
-L DIODE_(1N4148X-TP) D2
+L Smart-Tank-Motherboard-rescue:DIODE_(1N4148X-TP) D2
 U 1 1 57914BAA
 P 4100 3050
 F 0 "D2" H 4250 3100 50  0000 C CNN
@@ -301,7 +271,7 @@ F 3 "" H 4100 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 PWR_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_01X04 PWR_CONN1
 U 1 1 5791597C
 P 1850 2300
 F 0 "PWR_CONN1" H 1850 2550 50  0000 C CNN
@@ -324,7 +294,7 @@ F0 "TC_INPUTS" 60
 F1 "TC_INPUTS.sch" 60
 $EndSheet
 $Comp
-L CONN_01X10 GPIO_CONN1
+L Smart-Tank-Motherboard-rescue:CONN_01X10 GPIO_CONN1
 U 1 1 57988021
 P 1850 5250
 F 0 "GPIO_CONN1" H 1850 5800 50  0000 C CNN
@@ -341,24 +311,24 @@ GND
 Wire Wire Line
 	2050 2250 6950 2250
 Wire Wire Line
-	6950 2250 6950 3900
+	6950 2250 6950 3750
 Wire Wire Line
 	2050 2150 7350 2150
 Wire Wire Line
 	2050 4800 5000 4800
 Wire Wire Line
-	4250 5000 5000 5000
+	4250 5000 4600 5000
 Wire Wire Line
 	4600 5700 4600 5550
 Wire Wire Line
-	3550 5400 3900 5400
+	3550 5400 3700 5400
 Wire Wire Line
 	4200 5400 4300 5400
 Connection ~ 3700 5400
 Wire Wire Line
 	4600 5000 4600 5150
 Wire Wire Line
-	3550 4900 5000 4900
+	3550 4900 3850 4900
 Connection ~ 4600 5000
 Wire Wire Line
 	3950 5000 3850 5000
@@ -366,18 +336,18 @@ Wire Wire Line
 	3850 5000 3850 4900
 Connection ~ 3850 4900
 Wire Wire Line
-	4250 6200 5000 6200
+	4250 6200 4600 6200
 Wire Wire Line
 	4600 6900 4600 6750
 Wire Wire Line
-	3550 6600 3900 6600
+	3550 6600 3700 6600
 Wire Wire Line
 	4200 6600 4300 6600
 Connection ~ 3700 6600
 Wire Wire Line
 	4600 6200 4600 6350
 Wire Wire Line
-	3550 6100 5000 6100
+	3550 6100 3850 6100
 Connection ~ 4600 6200
 Wire Wire Line
 	3950 6200 3850 6200
@@ -391,7 +361,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 5000 2650 6000
 Wire Wire Line
-	3000 5700 3000 7000
+	3000 5700 3000 6900
 Connection ~ 3000 6900
 Wire Wire Line
 	5700 4800 5900 4800
@@ -414,18 +384,18 @@ Wire Wire Line
 Wire Wire Line
 	2550 5100 2050 5100
 Wire Wire Line
-	4250 3050 5000 3050
+	4250 3050 4600 3050
 Wire Wire Line
 	4600 3600 4600 3750
 Wire Wire Line
-	3550 3450 3900 3450
+	3550 3450 3700 3450
 Wire Wire Line
 	4200 3450 4300 3450
 Connection ~ 3700 3450
 Wire Wire Line
 	4600 3050 4600 3200
 Wire Wire Line
-	3550 2950 5000 2950
+	3550 2950 3850 2950
 Connection ~ 4600 3050
 Wire Wire Line
 	3950 3050 3850 3050
@@ -448,15 +418,15 @@ Connection ~ 6950 3750
 Wire Wire Line
 	2050 5700 2250 5700
 Wire Wire Line
-	2250 5600 2250 6900
+	2250 5600 2250 5700
 Wire Wire Line
 	2050 5600 2250 5600
 Connection ~ 2250 5700
 Wire Wire Line
-	3000 5700 4600 5700
+	3000 5700 3700 5700
 Connection ~ 3700 5700
 Wire Wire Line
-	2250 6900 4600 6900
+	2250 6900 3000 6900
 Connection ~ 3700 6900
 $Sheet
 S 5800 800  900  350 
@@ -489,8 +459,40 @@ F0 "POSITION_6" 60
 F1 "POSITION_6.sch" 60
 $EndSheet
 Wire Wire Line
-	3700 3750 6950 3750
+	3700 3750 4600 3750
 Connection ~ 4600 3750
 Wire Wire Line
 	7850 2150 8200 2150
+Wire Wire Line
+	3700 5400 3900 5400
+Wire Wire Line
+	4600 5000 5000 5000
+Wire Wire Line
+	3850 4900 5000 4900
+Wire Wire Line
+	3700 6600 3900 6600
+Wire Wire Line
+	4600 6200 5000 6200
+Wire Wire Line
+	3850 6100 5000 6100
+Wire Wire Line
+	3000 6900 3000 7000
+Wire Wire Line
+	3000 6900 3700 6900
+Wire Wire Line
+	3700 3450 3900 3450
+Wire Wire Line
+	4600 3050 5000 3050
+Wire Wire Line
+	3850 2950 5000 2950
+Wire Wire Line
+	6950 3750 6950 3900
+Wire Wire Line
+	2250 5700 2250 6900
+Wire Wire Line
+	3700 5700 4600 5700
+Wire Wire Line
+	3700 6900 4600 6900
+Wire Wire Line
+	4600 3750 6950 3750
 $EndSCHEMATC

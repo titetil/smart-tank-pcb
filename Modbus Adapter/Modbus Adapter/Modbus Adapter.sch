@@ -1,0 +1,77 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5EE3927D
+P 6250 3950
+F 0 "J2" H 6300 4367 50  0000 C CNN
+F 1 "NPTC052KFMS-RC" H 6300 4276 50  0000 C CNN
+F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-105-02-xxx-DV_2x05_P2.54mm_Horizontal" H 6250 3950 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/NPTC052KFMS-RC/S5675-ND/776134" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 5EE39C1C
+P 4850 3850
+F 0 "J1" H 4850 4200 50  0000 C CNN
+F 1 "691508110303" H 4850 4100 50  0000 C CNN
+F 2 "Modbus Adapter:WURTH_3_PIN_TB_(691508110303)" H 4850 3850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/691508110303/732-5964-1-ND/5047613" H 4850 3850 50  0001 C CNN
+	1    4850 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3750 6050 3750
+Wire Wire Line
+	5050 3850 5800 3850
+Wire Wire Line
+	5800 3850 5800 3950
+Wire Wire Line
+	5800 4150 6050 4150
+Wire Wire Line
+	6050 3950 5800 3950
+Connection ~ 5800 3950
+Wire Wire Line
+	5800 3950 5800 4150
+Wire Wire Line
+	5050 3950 5600 3950
+Wire Wire Line
+	5600 3950 5600 4350
+Wire Wire Line
+	5600 4350 6800 4350
+Wire Wire Line
+	6800 4350 6800 4050
+Wire Wire Line
+	6800 3850 6550 3850
+Wire Wire Line
+	6550 4050 6800 4050
+Connection ~ 6800 4050
+Wire Wire Line
+	6800 4050 6800 3850
+NoConn ~ 6550 3750
+NoConn ~ 6550 3950
+NoConn ~ 6550 4150
+NoConn ~ 6050 4050
+NoConn ~ 6050 3850
+Text Notes 4650 3800 0    50   ~ 0
+CC
+Text Notes 4650 3900 0    50   ~ 0
+CA
+Text Notes 4650 4000 0    50   ~ 0
+CB
+$EndSCHEMATC
