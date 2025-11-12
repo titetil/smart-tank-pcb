@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Smart Tank Current Shunt-rescue")(type "KiCad")(uri "${KIPRJMOD}/Smart Tank Current Shunt-rescue.kicad_sym")(options "")(descr ""))
+)
