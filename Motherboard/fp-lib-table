@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name Smart_Tank)(type KiCad)(uri "$(KIPRJMOD)/Smart_Tank_Footprints.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "Smart_Tank")(type "KiCad")(uri "$(KIPRJMOD)/Smart_Tank_Footprints.pretty")(options "")(descr ""))
+  (lib (name "Smart_Tank_Footprints")(type "KiCad")(uri "${KIPRJMOD}/Smart_Tank_Footprints.pretty")(options "")(descr ""))
 )

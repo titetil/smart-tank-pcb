@@ -1,19 +1,122 @@
-(module "PHNX_TB_SCREW_2_POS_(1729128)" locked (layer F.Cu) (tedit 57B5D317)
-  (fp_text reference PUMP_V_CONN_5 (at -3.81 -1.9685 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value CONN_01X02 (at 2.54 -6.35) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.54 -4.05) (end -2.54 4.05) (layer F.SilkS) (width 0.15))
-  (fp_line (start -2.54 4.05) (end 7.62 4.05) (layer F.SilkS) (width 0.15))
-  (fp_line (start 7.62 4.05) (end 7.62 -4.05) (layer F.SilkS) (width 0.15))
-  (fp_line (start 7.62 -4.05) (end -2.54 -4.05) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 5.08 0) (size 2 2) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (model "../../../../../../Users/gtetil/Documents/Projects/smart-tank-pcb/Motherboard/Smart_Tank_3D/PHNX_TB_SCREW_2_POS_(1729128).wrl"
-    (at (xyz -0.125 -0.135 0))
-    (scale (xyz 0.393701 0.393701 0.393701))
-    (rotate (xyz 270 0 90))
-  )
+(footprint "PHNX_TB_SCREW_2_POS_(1729128)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "PUMP_V_CONN_5"
+		(at -3.81 -1.9685 90)
+		(layer "F.SilkS")
+		(uuid "53f179d1-44ff-4d51-b876-846f8de8029b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_01X02"
+		(at 2.54 -6.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d63b81d8-d20c-46da-b73a-e4a44bbcc6f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04523a04-f0e5-4044-bd59-37d878f57a07")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03272371-c892-4554-98aa-24b801100454")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -4.05)
+		(end -2.54 4.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d7050c6-7c21-4eb4-924a-8b003693fa02")
+	)
+	(fp_line
+		(start -2.54 4.05)
+		(end 7.62 4.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41f3a031-4a4f-483c-a0e5-7f8061e3352c")
+	)
+	(fp_line
+		(start 7.62 -4.05)
+		(end -2.54 -4.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e875da8f-27f1-4261-be25-8d41f2f1f588")
+	)
+	(fp_line
+		(start 7.62 4.05)
+		(end 7.62 -4.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7740cf11-ccca-4ad9-8cea-45ec8d522b4f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "b2848943-4d3f-4f25-8771-ebc7d7c78b06")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c57456eb-4533-479f-b345-a95653529f8f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Smart_Tank_3D/PHNX_TB_SCREW_2_POS_(1729128).wrl"
+		(offset
+			(xyz -3.174999952 -3.428999949 0)
+		)
+		(scale
+			(xyz 0.393701 0.393701 0.393701)
+		)
+		(rotate
+			(xyz 270 0 90)
+		)
+	)
 )

@@ -5591,7 +5591,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TO_SOT_Packages_SMD:SOT-23"
+		(property "Footprint" "Smart_Tank:SOT-23"
 			(at 119.38 94.615 0)
 			(effects
 				(font
@@ -5662,7 +5662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 101.6 92.202 90)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 117.348 81.28 90)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 94.488 99.06 90)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 85.09 153.162 90)
 			(effects
 				(font
@@ -5922,7 +5922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 95.758 160.02 90)
 			(effects
 				(font
@@ -5989,7 +5989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 53.34 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 219.4052 53.34 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 229.5652 139.7 0)
 			(effects
 				(font
@@ -6190,7 +6190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 219.4052 139.7 0)
 			(effects
 				(font
@@ -6255,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 185.928 86.36 90)
 			(effects
 				(font
@@ -6320,7 +6320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 190.5 78.232 90)
 			(effects
 				(font
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 237.49 80.01 0)
 			(effects
 				(font
@@ -6692,7 +6692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitors_SMD:C_1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 257.81 48.5648 0)
 			(effects
 				(font
@@ -6757,7 +6757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistors_SMD:R_1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 74.168 43.18 90)
 			(effects
 				(font
@@ -6824,7 +6824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Smart_Tank:SOT-23"
 			(at 118.11 134.62 0)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Smart_Tank:FEMALE_SPADE_QC_(TE_63969-1)"
 			(at 254 33.02 0)
 			(effects
 				(font
@@ -6961,7 +6961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diodes_SMD:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 254 41.91 0)
 			(effects
 				(font
@@ -7029,7 +7029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_GARRETTS_PARTS:SHUNT_(WSL40261L000FEA)"
+		(property "Footprint" "Smart_Tank:SHUNT_(WSL40261L000FEA)"
 			(at 195.58 53.848 90)
 			(effects
 				(font
@@ -7104,7 +7104,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_GARRETTS_PARTS:SHUNT_(WSL40261L000FEA)"
+		(property "Footprint" "Smart_Tank:SHUNT_(WSL40261L000FEA)"
 			(at 195.58 140.208 90)
 			(effects
 				(font

@@ -1,0 +1,110 @@
+(footprint "SHUNT_(WSL40261L000FEA)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R19"
+		(at 2.2 -0.2 0)
+		(layer "F.SilkS")
+		(uuid "eb561a0e-7d9f-4d41-a57f-110da6222053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WSL40261L000FEA"
+		(at 2.2 1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "094af000-6168-4ec3-9827-c42e2ca0b1d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "437e3184-ecc0-4603-ba31-5a8f3bccf6fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfa75356-3fc2-4466-b6e2-8f1bd5d8c71c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.2 -9.7)
+		(end 7.4 -9.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca03f0a4-d9d6-47be-a634-38cd939158a6")
+	)
+	(fp_line
+		(start -3.2 -1.3)
+		(end 7.4 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a827bd9d-285b-4c33-b89b-f4a51146bcb1")
+	)
+	(pad "1" smd rect
+		(at -2 -4.7 90)
+		(size 5.2 2.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "797d1e6f-7d08-4244-85d2-2473c45ee6c3")
+	)
+	(pad "2" smd rect
+		(at -2 -8.4735 90)
+		(size 0.89 2.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "210f5570-c1e2-4570-8852-1f1ced01ef69")
+	)
+	(pad "3" smd rect
+		(at 6.23 -8.4735 90)
+		(size 0.89 2.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea05e56a-2c7f-4635-879d-e20246b9a3dd")
+	)
+	(pad "4" smd rect
+		(at 6.23 -4.7 90)
+		(size 5.2 2.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0a76ac9-4692-4bba-9007-06e883c65b22")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Smart_Tank_3D/WSL4026 (0.001).stp"
+		(offset
+			(xyz 2.1 2.24 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
