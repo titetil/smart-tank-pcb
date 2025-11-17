@@ -5093,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Smart_Tank:PHNX_TB_SCREW_4_POS_(1729144)"
+		(property "Footprint" "Smart_Tank:PHX_TB_HDR_4_POS_STR_(1755752)"
 			(at 250.19 83.82 0)
 			(effects
 				(font

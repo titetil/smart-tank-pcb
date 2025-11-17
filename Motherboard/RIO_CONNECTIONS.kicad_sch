@@ -11999,7 +11999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057965b78")
-		(property "Reference" "U1A1"
+		(property "Reference" "U1"
 			(at 213.36 62.23 0)
 			(effects
 				(font
@@ -12069,7 +12069,7 @@
 		(instances
 			(project "Smart Tank Motherboard"
 				(path "/9bd0ace5-d8c1-442c-86d3-58cb44e43f85/00000000-0000-0000-0000-0000578fba35"
-					(reference "U1A1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12084,7 +12084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057965bb9")
-		(property "Reference" "U1B1"
+		(property "Reference" "U1"
 			(at 213.36 86.36 0)
 			(effects
 				(font
@@ -12154,7 +12154,7 @@
 		(instances
 			(project "Smart Tank Motherboard"
 				(path "/9bd0ace5-d8c1-442c-86d3-58cb44e43f85/00000000-0000-0000-0000-0000578fba35"
-					(reference "U1B1")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -12169,7 +12169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057965fa5")
-		(property "Reference" "U2A1"
+		(property "Reference" "U2"
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -12239,7 +12239,7 @@
 		(instances
 			(project "Smart Tank Motherboard"
 				(path "/9bd0ace5-d8c1-442c-86d3-58cb44e43f85/00000000-0000-0000-0000-0000578fba35"
-					(reference "U2A1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12458,7 +12458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057a1f820")
-		(property "Reference" "U2B1"
+		(property "Reference" "U2"
 			(at 213.36 134.62 0)
 			(effects
 				(font
@@ -12528,7 +12528,7 @@
 		(instances
 			(project "Smart Tank Motherboard"
 				(path "/9bd0ace5-d8c1-442c-86d3-58cb44e43f85/00000000-0000-0000-0000-0000578fba35"
-					(reference "U2B1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
