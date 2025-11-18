@@ -190,7 +190,7 @@
 		(layer "F.Fab")
 		(uuid "6d36a76e-5bc6-40a9-9ae5-476378c1c320")
 	)
-	(pad "1_1" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -2.54 0)
 		(size 2.175 2.175)
 		(drill 1.45)
@@ -199,7 +199,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "39c41a35-cff9-4fba-9fa5-6823966449d9")
 	)
-	(pad "1_2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 2.54 0)
 		(size 2.175 2.175)
 		(drill 1.45)

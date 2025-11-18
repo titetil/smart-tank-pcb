@@ -11195,7 +11195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical"
+		(property "Footprint" "Connect:IDC_Header_Straight_50pins"
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -11528,7 +11528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connect:IDC_Header_Straight_10pins"
 			(at 166.37 68.58 0)
 			(effects
 				(font
@@ -12017,7 +12017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
 			(at 214.63 67.31 0)
 			(effects
 				(font
@@ -12102,7 +12102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
 			(at 214.63 91.44 0)
 			(effects
 				(font
@@ -12187,7 +12187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
 			(at 214.63 115.57 0)
 			(effects
 				(font
@@ -12476,7 +12476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm"
 			(at 214.63 139.7 0)
 			(effects
 				(font
@@ -12844,7 +12844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connect:IDC_Header_Straight_10pins"
 			(at 49.53 71.12 0)
 			(effects
 				(font
@@ -12933,7 +12933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connect:IDC_Header_Straight_10pins"
 			(at 110.49 71.12 0)
 			(effects
 				(font
@@ -13091,7 +13091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connect:IDC_Header_Straight_10pins"
 			(at 67.31 71.12 0)
 			(effects
 				(font
