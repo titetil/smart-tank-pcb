@@ -4677,7 +4677,7 @@
 			)
 		)
 	)
-	(global_label "POS_4_SPARE"
+	(global_label "POS_4_SPR_1"
 		(shape input)
 		(at 58.42 59.69 0)
 		(effects
