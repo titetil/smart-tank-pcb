@@ -3671,7 +3671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f4fbce8-bfba-4d84-a8b3-c4389d2632a9")
-		(property "Reference" "PUMP_CONFIG1"
+		(property "Reference" "VOLT_SENSE1"
 			(at 219.71 96.52 0)
 			(effects
 				(font
@@ -3789,7 +3789,7 @@
 		(instances
 			(project ""
 				(path "/9bd0ace5-d8c1-442c-86d3-58cb44e43f85"
-					(reference "PUMP_CONFIG1")
+					(reference "VOLT_SENSE1")
 					(unit 1)
 				)
 			)
