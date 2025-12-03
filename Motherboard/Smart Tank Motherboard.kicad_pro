@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.27,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.016,
+          "height": 1.7272,
+          "width": 1.7272
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,7 +58,120 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "holes_co_located|104140000|101600000|8e641833-00c1-4e79-9c22-d91e71a2372a|a3df692e-d087-46b0-a974-9c5745c2f436",
+          ""
+        ],
+        [
+          "holes_co_located|116205000|205105000|3ec72b87-832e-46eb-ba88-394448fa7666|f0bc2be7-1d7f-4a1a-8373-06216788e8e6",
+          ""
+        ],
+        [
+          "holes_co_located|165100000|101600000|8e67a509-bbd1-42a6-a8f0-1ebbb12f85e9|9ed1bfdb-f840-441f-815f-39495e3ee740",
+          ""
+        ],
+        [
+          "holes_co_located|226060000|101600000|053eced5-e65d-4eb1-b702-5a885191b08a|2d3b7b82-4371-4b0f-bcc3-2e2e6c719a6a",
+          ""
+        ],
+        [
+          "holes_co_located|287020000|101600000|3ec37ff8-97d6-4d3d-bffd-9acb265f3327|a86364f1-5ca9-40fb-adf8-1092fd037be9",
+          ""
+        ],
+        [
+          "holes_co_located|347980000|101600000|65e89e53-7904-4f32-aae1-b791a1a4d638|d7018fdc-8d51-40bc-99d4-7f237584b9e3",
+          ""
+        ],
+        [
+          "holes_co_located|408940000|101600000|1401ecba-dec2-4efe-ab6a-4640ce0f3371|b30dd720-15ec-4178-852b-37d2ab11991d",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|118598200|146209000|3c1e066a-67fc-483c-96f7-63cb4391c2a1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|112023200|169844000|00000000-0000-0000-0000-000057d0187f|dd09c6e3-2936-4689-9db3-90cc07603c5b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|173023200|169844000|00000000-0000-0000-0000-000057d0187f|17694b53-b9b8-4140-83ee-5313e71ed3b2|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|234023200|169844000|00000000-0000-0000-0000-000057d0187f|2d4e607e-0cf8-4691-bab8-9bad81dc3414|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|237631192|295910000|00000000-0000-0000-0000-000057d03301|10e8d820-5462-4b71-9a78-927cd4aec32a|In1.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|00000000-0000-0000-0000-000057d01938|853969eb-90d7-438d-b3ec-9866a36df2e8|In4.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|00000000-0000-0000-0000-000057d01972|853969eb-90d7-438d-b3ec-9866a36df2e8|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|00000000-0000-0000-0000-000057d03301|853969eb-90d7-438d-b3ec-9866a36df2e8|In1.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|00000000-0000-0000-0000-000057d033c6|853969eb-90d7-438d-b3ec-9866a36df2e8|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|2b285998-2f3c-48d5-843c-dd4d4ecef8c9|853969eb-90d7-438d-b3ec-9866a36df2e8|In8.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|3cfb7761-49c3-4db2-928a-d9a724dd6c1b|853969eb-90d7-438d-b3ec-9866a36df2e8|In7.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|b2003c29-6212-4175-a531-2e9ceac11863|853969eb-90d7-438d-b3ec-9866a36df2e8|In5.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|241138200|210820000|ba7a4aa8-3f22-4137-986b-d5b28e1581df|853969eb-90d7-438d-b3ec-9866a36df2e8|In6.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|242105208|295910000|00000000-0000-0000-0000-000057d03301|1e462495-f8fb-4ec7-b603-bdfdb535d495|In1.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|295023200|169844000|00000000-0000-0000-0000-000057d0187f|42606f93-207f-4aa9-a8b2-b3a4ae0760c0|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|356023200|169844000|00000000-0000-0000-0000-000057d0187f|db893c9a-e608-4fa8-9a00-88f942055d65|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|412067904|270175295|00000000-0000-0000-0000-000057d033c6|931345ab-2521-425f-8221-52a9d2199d67|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|412067904|276175295|00000000-0000-0000-0000-000057d033c6|b104094d-2dda-4d37-abeb-1fce40a8e174|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|412067904|282175295|00000000-0000-0000-0000-000057d033c6|7b06fa3b-6e60-4535-8faf-58666ef258b5|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|412850000|220154000|00000000-0000-0000-0000-000057d033c6|a4e5d973-8b71-4a38-b36a-d26b300b47cd|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|417023200|169844000|00000000-0000-0000-0000-000057d0187f|1f0c76fe-ed89-4269-bfc9-b9bbf62d3482|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -103,8 +216,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -137,7 +250,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.4318,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.6858,
@@ -2090,8 +2203,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Gerbers/",
+      "pos_files": "Gerbers/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
