@@ -1,4 +1,4 @@
-## Footprint report - date 2025-12-03T16:17:41-0500
+## Footprint report - date 2026-02-18T11:16:02-0500
 ## Created by KiCad version 9.0.6
 ## Unit = mm, Angle = deg.
 
@@ -6,7 +6,7 @@ $BeginDESCRIPTION
 
 $BOARD
 upper_left_corner 78.665000 68.505000
-lower_right_corner 478.865000 335.355000
+lower_right_corner 478.866200 335.355000
 $EndBOARD
 
 $MODULE 24VDC_FUSE1
@@ -14530,6 +14530,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S1
 
 $MODULE S2
@@ -14541,6 +14547,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S2
@@ -14556,6 +14568,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S3
 
 $MODULE S4
@@ -14567,6 +14585,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S4
@@ -14582,6 +14606,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S5
 
 $MODULE S6
@@ -14593,6 +14623,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S6
@@ -14608,6 +14644,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S7
 
 $MODULE S8
@@ -14619,6 +14661,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S8
@@ -14634,6 +14682,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S9
 
 $MODULE S10
@@ -14645,6 +14699,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S10
@@ -14660,6 +14720,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S11
 
 $MODULE S12
@@ -14671,6 +14737,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S12
@@ -14686,6 +14758,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S13
 
 $MODULE S14
@@ -14697,6 +14775,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S14
@@ -14712,6 +14796,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S15
 
 $MODULE S16
@@ -14723,6 +14813,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S16
@@ -14738,6 +14834,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S17
 
 $MODULE S18
@@ -14749,6 +14851,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S18
@@ -14764,6 +14872,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S19
 
 $MODULE S20
@@ -14775,6 +14889,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S20
@@ -14790,6 +14910,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S21
 
 $MODULE S22
@@ -14801,6 +14927,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S22
@@ -14816,6 +14948,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S23
 
 $MODULE S24
@@ -14827,6 +14965,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S24
@@ -14842,6 +14986,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S25
 
 $MODULE S26
@@ -14853,6 +15003,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S26
@@ -14868,6 +15024,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer back
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S27
 
 $MODULE S28
@@ -14881,6 +15043,12 @@ position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
 shape_offset  0.000000  0.000000
 $EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
 $EndMODULE  S28
 
 $MODULE S29
@@ -14892,6 +15060,12 @@ $PAD ""
 Shape Circle Layer both
 position  0.000000  0.000000  size  6.197600  6.197600  orientation 0.00
 drill  4.216400
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Circle Layer front
+position  2.540000  0.000000  size  0.100000  0.100000  orientation 0.00
+drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  S29

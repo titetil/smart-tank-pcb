@@ -1,13 +1,94 @@
-(module "PEM_STANDOFF_4-40_(SMTSOB-440-12ET)" (layer F.Cu) (tedit 57D2C5E4)
-  (descr "Mounting Hole 3.2mm, no annular, M3")
-  (tags "mounting hole 3.2mm no annular m3")
-  (fp_text reference S1 (at 0 -4.2) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "PEM_STANDOFF_4-40_(SMTSOB-440-12ET)" (at 0 4.2) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
-  (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
-  (pad "" np_thru_hole circle (at 0 0) (size 6.1976 6.1976) (drill 4.2164) (layers *.Cu *.Mask F.SilkS))
+(footprint "PEM_STANDOFF_4-40_(SMTSOB-440-12ET)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3")
+	(tags "mounting hole 3.2mm no annular m3")
+	(property "Reference" "S1"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "6bf2ff36-7b28-4567-8eba-31f5e00fbb87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PEM_STANDOFF_4-40_(SMTSOB-440-12ET)"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4206dd3f-fa8d-43b6-84e1-c6f838a50c04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cd6449f-5437-4a2a-98de-06f56136259c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "763137e6-0f1a-4e00-bbaf-55913dae88f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "01a1a9d1-7c6f-492f-b8f0-ba1e7c846889")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fcdbdfe1-80c8-48a9-88eb-a564c379a250")
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 6.1976 6.1976)
+		(drill 4.2164)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "0c24f564-01fe-4adf-82d2-fe9927c56586")
+	)
+	(pad "" smd circle
+		(at 2.54 0)
+		(size 0.1 0.1)
+		(layers "F.Cu")
+		(zone_connect 0)
+		(uuid "012580cb-c45e-4560-a8e9-2715ba8ca77e")
+	)
+	(embedded_fonts no)
 )
